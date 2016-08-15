@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="DatePicker 组件">
+        <title>分页组件</title>
+        <link rel="stylesheet" type="text/css" href="../../demos/common/demo.css">
+        <script type="text/javascript" src="http://fe.bdimg.com/tangram/2.0.1.2.js"></script>
+        <script type="text/javascript" src="../../demos/common/demo.js"></script>
+        <link rel="stylesheet" type="text/css" href="../../resources/default/common/common.css">
+        <link rel="stylesheet" type="text/css" href="../../resources/default/magic.Pager/magic.Pager.css">
+		<style type="text/css">
+        .param {
+            width: 45%;
+            margin-right: 10px;
+            float: left;
+        }
+		.init-form .param .warning {
+			color : red;
+            margin: 5px 0 10px;
+		}
+		#magic-pager {
+			margin-top : 20px;
+		}
+        .input-container {
+            margin: 5px 0 15px;
+        }
+        .init-button-container{
+            clear: both;
+        }
+        input {
+            margin: 0;
+        }
+		</style>
+        <script type="text/javascript" src='http://tangram.baidu.com/magic/index.php?m=frontData&a=imports&f=magic.Pager'></script>
+    </head>
+    <body>
+        <div class="content">
+            <div class="demo-list">
+                <h3>Demo列表</h3>
+            </div>
+            <div class="main-wrap">
+                <div class="demo-wrap">
+                    <h3>分页初始化和事件演示</h3>
+                    <p>请填入初始化参数，然后点击初始化按钮。</p>                    
+                </div>
+                <div class="demo-view">
+                    <form id="init-form" class="init-form">
+                        <div class="param clearfix">
+                            <label>当前页</label>
+                            <div class="input-container">
+                                <input name="current-page" value="1" data-validate="naturalNum" data-warning="请输入正整数">
+                            </div>
+                            <div class="warning"></div>
+                        </div>
+                        <div class="param clearfix">
+                            <label>总页数</label>
+                            <div class="input-container">
+                                <input name="total-page" value="100" data-validate="naturalNum" data-warning="请输入正整数">
+                            </div>
+                            <div class="warning"></div>
+                        </div>
+                        <div class="param clearfix">
+                            <label>页码数，默认显示多少个页面的链接（不包括“首页”等特殊链接）。</label>
+                            <div class="input-container">
+                                <input name="view-size" value="10" data-validate="naturalNum" data-warning="请输入正整数">
+                            </div>
+                            <div class="warning"></div>
+                        </div>
+                        <div class="param clearfix">
+                            <label>当前页位置，当前页面链接在页面链接列表中的默认位置，必须小于页码数。</label>
+                            <div class="input-container">
+                                <input name="current-page-pos" value="4" data-validate="naturalNum" data-warning="请输入正整数">
+                            </div>
+                            <div class="warning"></div>
+                        </div>
+                        <div class="param clearfix">
+                            <label>首页链接显示的内容</label>
+                            <div class="input-container">
+                                <input name="label-first" value="首页">
+                            </div>
+                            <div class="warning"></div>
+                        </div>
+                        <div class="param clearfix">
+                            <label>上一页链接显示的内容</label>
+                            <div class="input-container">
+                                <input name="label-prev" value="上一页">
+                            </div>
+                            <div class="warning"></div>
+                        </div>
+                        <div class="param clearfix">
+                            <label>下一页链接显示的内容</label>
+                            <div class="input-container">
+                                <input name="label-next" value="下一页">
+                            </div>
+                            <div class="warning"></div>
+                        </div>
+                        <div class="param clearfix">
+                            <label>尾页链接显示的内容</label>
+                            <div class="input-container">
+                                <input name="label-last" value="尾页">
+                            </div>
+                            <div class="warning"></div>
+                        </div>
+                        <div class="param clearfix">
+                            <label>普通页码显示模版</label>
+                            <div class="input-container">
+                                <input name="tpl-label-normal" value="#{pageNum}">
+                            </div>
+                            <div class="warning"></div>
+                        </div>
+                        <div class="param clearfix">
+                            <label>当前页码的显示模版</label>
+                            <div class="input-container">
+                                <input name="tpl-label-current" value="#{pageNum}">
+                            </div>
+                            <div class="warning"></div>
+                        </div>
+                        <div class="init-button-container"><input type="submit" value="初始化"></div>
+                    </form>
+                </div>
+                <div id="magic-pager"></div>
+                <div class="console-wrap">
+                    <h3>控制台</h3>
+                    <div id="J_console" class="console"></div>
+                </div>
+            </div>
+        </div>
+
+<script type="text/javascript">
+
+var validation = {
+	'naturalNum' : function(num) {
+		return (/^\d+$/.test(num) && (num > 0));
+	}
+}
+
+baidu('#init-form').submit(function(evt) {
+	evt.preventDefault();
+	baidu('#magic-pager').html('');
+	var isSucceed = true, options = {};
+	baidu(this).find('.param').each(function(index, item) {
+		var inputDom = baidu(item).find('input').eq(0),
+			optionName = inputDom.attr('name'),
+			validateFormat = inputDom.attr('data-validate'),
+			warningText = inputDom.attr('data-warning'),
+			value = inputDom.val(),
+			warningDom = baidu(item).find('.warning').eq(0);
+		warningDom.html('');
+		if (validation[validateFormat] && !validation[validateFormat](value)) {
+			warningDom.html(warningText);
+			isSucceed = false;				
+		} else {
+			options[baidu.string(optionName).toCamelCase()] = value;
+		}
+	});
+	if (isSucceed) {
+		options.viewSize = parseInt(options.viewSize);
+		options.currentPage = parseInt(options.currentPage);
+		options.totalPage = parseInt(options.totalPage);
+		options.currentPagePos = parseInt(options.currentPagePos);
+		var instance = new magic.Pager(options);
+		instance.render('magic-pager');
+		instance.on('pagechange', function(evt) {
+			baidu.event(evt).preventDefault();
+			log('event', '触发pagechange事件，当前的页码是' + evt.pageNum + '。');
+		});
+	}
+});
+	
+</script>
+    </body>
+</html>

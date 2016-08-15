@@ -1,0 +1,8 @@
+1、加解密算法不一至
+2、缺少数据库hm_public
+3、代码中共有5个接口，接口文档中只有3个接口表述
+4、w.js文件中的配置项frame_url和interface_url=http://localhost/imovp/hiad-interface/Himi，其中Himi是一个什么样的目录需要告知
+5、hm_adms数据库中的hm_sessting的配置项作用不清楚 
+6、缺少创建数据库的计划任务
+7、后台修改站点广告的业务逻辑不能走通
+8、客户端广告中的精准投放功能未开发

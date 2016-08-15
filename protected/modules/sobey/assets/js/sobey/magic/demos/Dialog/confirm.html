@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="description" content="Dialog.confirm示例">
+        <title>Dialog.confirm 示例</title>
+        <link rel="stylesheet" type="text/css" href="../../demos/common/demo.css">
+        <script type="text/javascript" src="http://fe.bdimg.com/tangram/2.0.1.2.js"></script>
+        <script type="text/javascript" src="../../demos/common/demo.js"></script>
+        <link rel="stylesheet" type="text/css" href="../../resources/default/common/common.css">
+        <link rel="stylesheet" type="text/css" href="../../resources/default/magic.control.Dialog/magic.control.Dialog.css">
+        <style type="text/css" media="screen">
+            /* 对话框初始信息 */
+			#one-dialog{ left: 80px; top: 140px; }
+			#one-dialog .tang-foreground{ width: 400px; height: 300px; }
+			#one-dialog .tang-body{ height: 270px; font-size: 12px; }
+        </style>
+        <script type="text/javascript" src="http://tangram.baidu.com/magic/index.php?m=frontData&a=imports&f=magic.Dialog,magic.control.Dialog.$button"></script>
+    </head>
+    <body>
+        <div class="content">
+            <div class="demo-list">
+                <h3>Demo列表</h3>
+            </div>
+            <div class="main-wrap">
+                <div class="demo-wrap">
+                    <h3>Dialog.confirm示例</h3>
+                    <p>使用 Dialog.confirm 必须在下载 tangram 代码时勾选了“button” 插件</p>
+                </div>                
+                <p><input type="button" value="magic.confirm" onclick="mconfirm();"></p>
+            </div>
+        </div>
+
+        <script>
+        	function mconfirm(){
+		         magic.confirm('内容', '标题', {
+                        'label': '是',
+                        'callback': function(){
+                            alert('ok');
+                        }
+                    }, {
+                        'label': '否',
+                        'callback': function(){
+                            alert('cancel');
+                        }
+                });
+	     	}
+        </script>
+    </body>
+</html>

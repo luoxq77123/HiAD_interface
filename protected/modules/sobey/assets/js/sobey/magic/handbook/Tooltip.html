@@ -1,0 +1,244 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns=http://www.w3.org/1999/xhtml>
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="tangram-fe" />
+		<meta name="viewport" content="width=device-width,height=device-height,user-scalable=no,initial-scale=1.0,maximum-scale=1.0;"/>
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<style>
+			body{font-size:14px;font-family:'微软雅黑'}
+		</style>
+		<title>Magic - 离线API</title>
+	</head>
+	<body>
+		<h1>Magic离线文档 -- 气泡提示</h1>
+		<h2>气泡提示</h2>
+		<p>
+			飘浮在页面主体内容上的层，多用于提醒和提示。气泡提示具有一个箭头，可以设置箭头样式和位置。
+		</p>
+
+		<h2>气泡提示插件</h2>
+
+				<h2>参考手册</h2>
+		
+		<dl>
+			<dt><h3>参数配置</h3></dt>
+			<dd>
+				<ul>
+										<li>
+						<dl>					
+							<dt><strong>options.autoHide </strong>: Boolean</dt>
+							<dd>是否自动隐藏, 如果为true,则会在scroll,resize,click,keydown(escape)事件下隐藏，默认值为true。</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>					
+							<dt><strong>options.hasCloseBtn </strong>: Boolean</dt>
+							<dd>是否可以通过右上角X来关闭提示。默认值为true。</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>					
+							<dt><strong>options.hasArrow </strong>: Boolean</dt>
+							<dd>是否显示箭头。默认值为true。</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>					
+							<dt><strong>options.offsetX </strong>: Number</dt>
+							<dd>定位时的偏移量，X方向。</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>					
+							<dt><strong>options.offsetY </strong>: Number</dt>
+							<dd>定位时的偏移量，Y方向。</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>					
+							<dt><strong>options.target </strong>: Array</dt>
+							<dd>需要提示的节点。(必选)</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>					
+							<dt><strong>options.content </strong>: Function|String</dt>
+							<dd>自定义内容定制。若为Function,则参数为Tangram对象(目标节点)。默认值为空。</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>					
+							<dt><strong>options.showEvent </strong>: String</dt>
+							<dd>提示显示的动作，默认值为mouseover,focus。</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>					
+							<dt><strong>options.hideEvent </strong>: String</dt>
+							<dd>提示隐藏的动作，默认值为mouseout,blur。</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>					
+							<dt><strong>options.position </strong>: String</dt>
+							<dd>设置tooltip的位置，值为top|bottom|left|right，默认值为bottom。</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>					
+							<dt><strong>options.arrowPosition </strong>: Number|Percent</dt>
+							<dd>设置arrow的位置，如果是上、下方位的话，都相对于左边的距离。如果是左、右方位的话，都相对于上面的距离。如果该值不存在，则自动计算提示框位置离目标节点中间最靠近的位置。</dd>
+						</dl>
+					</li>
+									</ul>
+			</dd>
+		</dl>
+				<dl>
+			<dt><h3>组件属性</h3></dt>
+			<dd>
+				<ul>
+									</ul>
+			</dd>
+		</dl>
+				<dl>
+			<dt><h3>组件方法</h3></dt>
+			<dd>
+				<ul>
+										<li>
+						<dl>
+							<dt>render</dt>
+							<dd>
+								<p>渲染提示框</p>
+																<ul>
+																		<li>
+										<dl>
+											<dt>参数</dt>							
+											<dd>
+												<ul>
+																										<li>
+														<p><strong>el</strong>: {HTMLElement|id|dom}</p>
+														<p style="text-indent: 24px;">渲染到目标容器下，如果该值存在，则提示框组件在el下，如果不存在且目标节点存在的情况下，提示框组件和目标节点是兄弟关系，如果都不存在，则渲染到body下。</p>
+													</li>
+																									</ul>
+												
+											</dd>
+										</dl>
+									</li>
+																		
+																											
+									
+								</ul>
+															</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>
+							<dt>reposition</dt>
+							<dd>
+								<p>重新定位提示框位置</p>
+																							</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>
+							<dt>show</dt>
+							<dd>
+								<p>显示提示框</p>
+																							</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>
+							<dt>hide</dt>
+							<dd>
+								<p>隐藏提示框</p>
+																							</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>
+							<dt>setTarget</dt>
+							<dd>
+								<p>设置目标节点</p>
+																							</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>
+							<dt>setContent</dt>
+							<dd>
+								<p>设置提示框内容</p>
+																							</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>
+							<dt>setPosition</dt>
+							<dd>
+								<p>设置提示框位置</p>
+																							</dd>
+						</dl>
+					</li>
+									</ul>
+			</dd>
+		</dl>
+
+		<dl>
+			<dt><h3>组件事件</h3></dt>
+			<dd>
+				<ul>
+										<li>
+						<dl>
+							<dt>onload</dt>
+							<dd>
+								<p>提示框渲染完时触发</p>
+																							</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>
+							<dt>onbeforeshow</dt>
+							<dd>
+								<p>显示提示框之前触发,如果返回为false,则阻止显示。</p>
+																							</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>
+							<dt>onshow</dt>
+							<dd>
+								<p>显示提示框时触发</p>
+																							</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>
+							<dt>onbeforehide</dt>
+							<dd>
+								<p>隐藏提示框之前触发,如果为false,则阻止隐藏。</p>
+																							</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>
+							<dt>onhide</dt>
+							<dd>
+								<p>隐藏提示框时触发</p>
+																							</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>
+							<dt>ontargetchange</dt>
+							<dd>
+								<p>当目标节点发生变化时触发。</p>
+																							</dd>
+						</dl>
+					</li>
+									</ul>
+			</dd>
+		</dl>
+	</body>
+</html>

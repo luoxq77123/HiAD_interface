@@ -1,0 +1,47 @@
+/* CSS file */
+@namespace s "library://ns.adobe.com/flex/spark";
+@namespace mx "library://ns.adobe.com/flex/mx";
+@namespace c "com.sobey.player.components.*"; 
+global
+{
+	chrome-color: #333333;
+	color: #CCCCCC;
+	content-background-color: #777777;
+	symbol-color: #000000;
+	roll-over-color: #555555;
+	selection-color: #333333;
+	focus-color: #999999;
+	accent-color: #8C8C8C;
+	fontFamily:"宋体";
+}
+
+
+s|Application,s|Panel
+{
+	background-color: #666666; 
+}
+mx|ToolTip
+{
+	color: #000000;
+}
+c|VideoPlayer{ 
+	skin-class:ClassReference("com.sobey.player.skins.gray.VideoPlayerSkin");
+}
+c|PopupForm{
+	skin-class:ClassReference("com.sobey.player.skins.ConfigFormSkin");
+}
+c|ColorAdjusting{
+	skin-class:ClassReference("com.sobey.player.skins.ColorAdjustingSkin");
+}
+c|InformationForm{
+	skin-class:ClassReference("com.sobey.player.skins.InfomationFormSkin");
+}
+c|RecItem{
+	skin-class:ClassReference("com.sobey.player.plugin.plugins.rec.RecItemSkin");
+}
+c|RecommedingForm{
+	skin-class:ClassReference("com.sobey.player.plugin.plugins.rec.RecommedingFormSkin");
+}
+c|Loading{
+	skin-class:ClassReference("com.sobey.player.skins.LoadingSkin");
+}

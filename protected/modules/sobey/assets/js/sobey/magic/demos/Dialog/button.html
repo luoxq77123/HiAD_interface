@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="description" content="Dialog 组件 mask 插件示例">
+        <title>Mask 插件示例</title>
+        <link rel="stylesheet" type="text/css" href="../../demos/common/demo.css">
+        <script type="text/javascript" src="http://fe.bdimg.com/tangram/2.0.1.2.js"></script>
+        <script type="text/javascript" src="../../demos/common/demo.js"></script>
+        <link rel="stylesheet" type="text/css" href="../../resources/default/common/common.css">
+        <link rel="stylesheet" type="text/css" href="../../resources/default/magic.control.Dialog/magic.control.Dialog.css">
+        <style type="text/css" media="screen">
+            /* 对话框初始信息 */
+			#one-dialog{ left: 80px; top: 140px; }
+			#one-dialog .tang-foreground{ width: 400px; height: 300px; }
+			#one-dialog .tang-body{ height: 270px; font-size: 12px; }
+        </style>
+        <script type="text/javascript" src="http://tangram.baidu.com/magic/index.php?m=frontData&a=imports&f=magic.Dialog,magic.control.Dialog.$button"></script>
+    </head>
+    <body>
+        <div class="content">
+            <div class="demo-list">
+                <h3>Demo列表</h3>
+            </div>
+            <div class="main-wrap">
+                <div class="demo-wrap">
+                    <h3>对话框组件button插件示例</h3>
+                    <p>使用 button 插件必须在下载 tangram 代码时勾选了“button”</p>
+					<p>button 插件提供对话框底部按钮添加。</p>
+					<p>button 插件适用于 render 模式，使用按钮插件，请将 button 选项设置为 true</p>
+                </div>                
+                <p><input type="button" value="dialog.show();" onclick="dialog.show();"></p>
+            </div>
+        </div>
+
+        <script>
+	        var creator = (function(){
+			        var hasFocused = false,
+			            btnTemplate = ['<a href="#" onClick="return false;" style="border-radius:5px;" class="tang-dialog-button ','','">',
+		    							'<span style="border-radius:5px;padding:0.2em 0.6em" class="tang-dialog-button-s">',
+		    								'',
+		    							'</span>',
+		    							'</a>'];
+			        return function(btnOptions,anchor,instance,index){
+			          btnOptions.disabled && (btnTemplate[1] = 'tang-dialog-button-disabled');
+			          btnTemplate[4] = btnOptions.text;
+			          baidu(anchor).insertHTML('beforeEnd', btnTemplate.join(''));
+			          !hasFocused && btnOptions.focused && !btnOptions.disabled 
+			            && (hasFocused = false) || anchor.focus();
+			            return  anchor;                 
+			        };
+			    })(),
+			    dialog = new magic.Dialog({
+			        draggable: true,
+			        titleText: "对话框一",
+			        content: "我是内容", 
+			        width: 400,
+			        height: 300,
+			        buttons: {
+			            items: [
+			                {
+			                   text: '确定',
+			                   click: function(){
+			                       alert("sure");
+			                   },
+			                   focused:true
+			               },
+			               {
+			                   text: '失效',
+			                   disabled:true
+			               },
+			               {
+			                   text: '自定义',
+			                   click:function(){
+			                       alert("custome");
+			                   },
+			                   builder:creator
+			               }
+			            ],
+			            align: 'right',
+			            enable: true
+			        }
+			    });
+			dialog.render();
+			dialog.center();
+        </script>
+    </body>
+</html>

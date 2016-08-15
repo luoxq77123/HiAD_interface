@@ -1,0 +1,1453 @@
+2015/07/16 19:20:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in E:\WWW\www\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2015/07/16 19:20:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in E:\WWW\www\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2015/07/16 19:20:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "app/adinfo"。' in E:\WWW\www\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('app/adinfo')
+#1 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#3 {main} REQUEST_URI=/app/adinfo
+2015/07/16 19:20:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "app/adInfo"。' in E:\WWW\www\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('app/adInfo')
+#1 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#3 {main} REQUEST_URI=/app/adInfo
+2015/07/16 19:21:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "App/adInfo"。' in E:\WWW\www\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('App/adInfo')
+#1 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#3 {main} REQUEST_URI=/App/adInfo
+2015/07/16 19:23:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "getAppAd" 动作.' in E:\WWW\www\framework\web\CController.php:477
+Stack trace:
+#0 E:\WWW\www\framework\web\CController.php(262): CController->missingAction('getAppAd')
+#1 E:\WWW\www\framework\web\CWebApplication.php(328): CController->run('getAppAd')
+#2 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('DataService/get...')
+#3 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#5 {main} REQUEST_URI=/DataService/getAppAd
+2015/07/16 19:25:43 [error] [exception.CException] exception 'CException' with message '属性 "CHttpRequest.isPostRequest" 是只读的.' in E:\WWW\www\framework\base\CComponent.php:170
+Stack trace:
+#0 E:\WWW\www\hiad-interface\protected\controllers\DataServiceController.php(13): CComponent->__set('isPostRequest', 1)
+#1 E:\WWW\www\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#2 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#3 E:\WWW\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#4 E:\WWW\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 E:\WWW\www\framework\web\CWebApplication.php(328): CController->run('')
+#6 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('DataService')
+#7 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#8 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#9 {main} REQUEST_URI=/DataService/?ITFV=1&parameter=11&method=getAppAd
+2015/07/16 19:36:32 [error] [php] strlen() expects parameter 1 to be string, array given (E:\WWW\www\hiad-interface\protected\helpers\PassportHelper.php:14)
+Stack trace:
+#0 E:\WWW\www\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#1 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams()
+#2 E:\WWW\www\framework\web\CController.php(278): DataServiceController->runAction()
+#3 E:\WWW\www\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#4 E:\WWW\www\framework\web\CWebApplication.php(328): DataServiceController->run()
+#5 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#6 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#7 E:\WWW\www\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/DataService/?ITFV=1&parameter=11&method=getAppAd&appid=1&appkey=1184ee5c4989b41dbef3d8be0ad30dbb&time=123123&clientInfo=212312&positionId=1
+2015/08/12 11:21:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in E:\WWW\www\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2015/08/12 11:21:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in E:\WWW\www\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2015/08/13 19:02:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in E:\WWW\www\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2015/08/13 19:02:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in E:\WWW\www\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2015/08/17 15:03:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in E:\WWW\www\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2015/08/17 16:19:58 [error] [php] unserialize(): Error at offset 31 of 168 bytes (E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php:98)
+Stack trace:
+#0 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(25): AppAdController->_getReturnData()
+#1 E:\WWW\www\hiad-interface\protected\controllers\DataServiceController.php(32): AppAdController->adInfo()
+#2 E:\WWW\www\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#3 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams()
+#4 E:\WWW\www\framework\web\CController.php(278): DataServiceController->runAction()
+#5 E:\WWW\www\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#6 E:\WWW\www\framework\web\CWebApplication.php(328): DataServiceController->run()
+#7 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#8 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#9 E:\WWW\www\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/DataService?method=getAppAd&parameter={%22positionId%22:25,%22time%22:123123123,%22clientInfo%22:%22{\%22appType\%22:\%22ios\%22}%22}&appId=1&ITFV=1.0v
+2015/08/17 16:21:00 [error] [php] unserialize(): Error at offset 31 of 168 bytes (E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php:98)
+Stack trace:
+#0 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(25): AppAdController->_getReturnData()
+#1 E:\WWW\www\hiad-interface\protected\controllers\DataServiceController.php(32): AppAdController->adInfo()
+#2 E:\WWW\www\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#3 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams()
+#4 E:\WWW\www\framework\web\CController.php(278): DataServiceController->runAction()
+#5 E:\WWW\www\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#6 E:\WWW\www\framework\web\CWebApplication.php(328): DataServiceController->run()
+#7 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#8 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#9 E:\WWW\www\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/DataService?method=getAppAd&parameter={%22positionId%22:25,%22time%22:123123123,%22clientInfo%22:%22{\%22appType\%22:\%22ios\%22}%22}&appId=1&ITFV=1.0v
+2015/08/17 16:23:34 [error] [exception.CException] exception 'CException' with message '属性 "CWebApplication.sphinxSearch" 未被定义.' in E:\WWW\www\framework\base\CComponent.php:131
+Stack trace:
+#0 E:\WWW\www\framework\base\CModule.php(88): CComponent->__get('sphinxSearch')
+#1 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(139): CModule->__get('sphinxSearch')
+#2 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(41): AppAdController->_getAdAttr()
+#3 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(25): AppAdController->_getReturnData()
+#4 E:\WWW\www\hiad-interface\protected\controllers\DataServiceController.php(32): AppAdController->adInfo()
+#5 E:\WWW\www\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#6 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#7 E:\WWW\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#8 E:\WWW\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\WWW\www\framework\web\CWebApplication.php(328): CController->run('')
+#10 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('DataService')
+#11 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#12 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#13 {main} REQUEST_URI=/DataService?method=getAppAd&parameter={%22positionId%22:25,%22time%22:123123123,%22clientInfo%22:%22{\%22appType\%22:\%22ios\%22}%22}&appId=1&ITFV=1.0v
+2015/08/17 17:02:17 [error] [php] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (E:\WWW\www\hiad-interface\protected\components\HMSphinx\HMSphinx.php:26)
+Stack trace:
+#0 E:\WWW\www\framework\base\CModule.php(372): HMSphinx->init()
+#1 E:\WWW\www\framework\base\CModule.php(101): CWebApplication->getComponent()
+#2 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(139): CWebApplication->__isset()
+#3 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(41): AppAdController->_getAdAttr()
+#4 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(25): AppAdController->_getReturnData()
+#5 E:\WWW\www\hiad-interface\protected\controllers\DataServiceController.php(32): AppAdController->adInfo()
+#6 E:\WWW\www\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#7 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams()
+#8 E:\WWW\www\framework\web\CController.php(278): DataServiceController->runAction()
+#9 E:\WWW\www\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#10 E:\WWW\www\framework\web\CWebApplication.php(328): DataServiceController->run()
+#11 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#12 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#13 E:\WWW\www\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/DataService?method=getAppAd&parameter={%22positionId%22:25,%22time%22:123123123,%22clientInfo%22:%22{\%22appType\%22:\%22ios\%22}%22}&appId=1&ITFV=1.0v
+2015/08/17 17:07:42 [error] [php] Undefined index: connect (E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php:198)
+Stack trace:
+#0 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(41): AppAdController->_getAdAttr()
+#1 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(25): AppAdController->_getReturnData()
+#2 E:\WWW\www\hiad-interface\protected\controllers\DataServiceController.php(32): AppAdController->adInfo()
+#3 E:\WWW\www\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#4 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams()
+#5 E:\WWW\www\framework\web\CController.php(278): DataServiceController->runAction()
+#6 E:\WWW\www\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#7 E:\WWW\www\framework\web\CWebApplication.php(328): DataServiceController->run()
+#8 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#9 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#10 E:\WWW\www\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/DataService?method=getAppAd&parameter={%22positionId%22:25,%22time%22:123123123,%22clientInfo%22:%22{\%22appType\%22:\%22ios\%22}%22}&appId=1&ITFV=1.0v
+2015/08/20 10:34:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in E:\WWW\www\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2015/08/31 16:37:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in E:\WWW\www\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2015/08/31 16:52:57 [error] [php] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (E:\WWW\www\hiad-interface\protected\components\HMSphinx\HMSphinx.php:26)
+Stack trace:
+#0 E:\WWW\www\framework\base\CModule.php(372): HMSphinx->init()
+#1 E:\WWW\www\framework\base\CModule.php(101): CWebApplication->getComponent()
+#2 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(142): CWebApplication->__isset()
+#3 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(42): AppAdController->_getAdAttr()
+#4 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(25): AppAdController->_getReturnData()
+#5 E:\WWW\www\hiad-interface\protected\controllers\DataServiceController.php(32): AppAdController->adInfo()
+#6 E:\WWW\www\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#7 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams()
+#8 E:\WWW\www\framework\web\CController.php(278): DataServiceController->runAction()
+#9 E:\WWW\www\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#10 E:\WWW\www\framework\web\CWebApplication.php(328): DataServiceController->run()
+#11 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#12 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#13 E:\WWW\www\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/DataService?method=getAppAd&parameter={%22positionId%22:25,%22time%22:123123123,%22clientInfo%22:%22{\%22appType\%22:\%22ios\%22,\%22connect\%22:\%22\\u79fb\\u52a8\%22,\%22brand\%22:\%22\\u82f9\\u679c\%22,\%22platform\%22:\%22iphone\%22,\%22screenWidth\%22:100,\%22screenHeight\%22:100}%22}&appId=1&ITFV=1.0v
+2015/08/31 18:13:10 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hm_adms_a.app_app_20150831' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `app_app_20150831`.
+2015/08/31 18:13:10 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "AppStat" 对应的 table "{{app_20150831}}".' in E:\WWW\www\framework\db\ar\CActiveRecord.php:2237
+Stack trace:
+#0 E:\WWW\www\hiad-interface\protected\models\AppStat.php(26): CActiveRecordMetaData->__construct(Object(AppStat))
+#1 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(456): AppStat::model('20150831')
+#2 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(361): AppAdController->_getShowStatistics(55, 1440950400)
+#3 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(260): AppAdController->_getAdInfoByPolicy(Array)
+#4 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(157): AppAdController->_adFilterBySql(Array)
+#5 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(145): AppAdController->_getAdInfoBySql()
+#6 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(42): AppAdController->_getAdAttr()
+#7 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(25): AppAdController->_getReturnData()
+#8 E:\WWW\www\hiad-interface\protected\controllers\DataServiceController.php(32): AppAdController->adInfo()
+#9 E:\WWW\www\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#10 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#11 E:\WWW\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#12 E:\WWW\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 E:\WWW\www\framework\web\CWebApplication.php(328): CController->run('')
+#14 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('DataService')
+#15 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#16 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#17 {main} REQUEST_URI=/DataService?method=getAppAd&parameter={%22positionId%22:25,%22time%22:123123123,%22clientInfo%22:%22{\%22appType\%22:\%22ios\%22,\%22connect\%22:\%22\\u79fb\\u52a8\%22,\%22brand\%22:\%22\\u82f9\\u679c\%22,\%22platform\%22:\%22iphone\%22,\%22screenWidth\%22:100,\%22screenHeight\%22:100}%22}&appId=1&ITFV=1.0v
+2015/09/01 10:24:02 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hm_adms.hm_appmaterial_20150901' doesn't exist. The SQL statement executed was: insert into hm_appmaterial_20150901 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (23, 7, 1, 16910595, 0, 0, 0, 0, 1441074241).
+2015/09/01 10:24:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hm_adms.hm_appmaterial_20150901' doesn't exist. The SQL statement executed was: insert into hm_appmaterial_20150901 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (23, 7, 1, 16910595, 0, 0, 0, 0, 1441074241)' in E:\WWW\www\framework\db\CDbCommand.php:338
+Stack trace:
+#0 E:\WWW\www\hiad-interface\protected\models\AppStatistics.php(165): CDbCommand->execute()
+#1 E:\WWW\www\hiad-interface\protected\models\AppStatistics.php(113): AppStatistics->addMaterialData(Array, Array)
+#2 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(52): AppStatistics->addStatDetail(Array)
+#3 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(25): AppAdController->_getReturnData()
+#4 E:\WWW\www\hiad-interface\protected\controllers\DataServiceController.php(32): AppAdController->adInfo()
+#5 E:\WWW\www\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#6 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#7 E:\WWW\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#8 E:\WWW\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\WWW\www\framework\web\CWebApplication.php(328): CController->run('')
+#10 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('DataService')
+#11 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#12 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#13 {main} REQUEST_URI=/DataService?method=getAppAd&parameter={%22positionId%22:25,%22time%22:123123123,%22clientInfo%22:%22{\%22appType\%22:\%22ios\%22,\%22connect\%22:\%22\\u79fb\\u52a8\%22,\%22brand\%22:\%22\\u82f9\\u679c\%22,\%22platform\%22:\%22iphone\%22,\%22screenWidth\%22:100,\%22screenHeight\%22:100}%22}&appId=1&ITFV=1.0v
+2015/09/01 10:32:52 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hm_adms.hm_appmaterial_20150901' doesn't exist. The SQL statement executed was: insert into hm_appmaterial_20150901 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (23, 4, 1, 16910595, 0, 0, 0, 0, 1441074772).
+2015/09/01 10:32:52 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hm_adms.hm_appmaterial_20150901' doesn't exist. The SQL statement executed was: insert into hm_appmaterial_20150901 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (23, 4, 1, 16910595, 0, 0, 0, 0, 1441074772)' in E:\WWW\www\framework\db\CDbCommand.php:338
+Stack trace:
+#0 E:\WWW\www\hiad-interface\protected\models\AppStatistics.php(165): CDbCommand->execute()
+#1 E:\WWW\www\hiad-interface\protected\models\AppStatistics.php(113): AppStatistics->addMaterialData(Array, Array)
+#2 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(52): AppStatistics->addStatDetail(Array)
+#3 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(25): AppAdController->_getReturnData()
+#4 E:\WWW\www\hiad-interface\protected\controllers\DataServiceController.php(32): AppAdController->adInfo()
+#5 E:\WWW\www\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#6 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#7 E:\WWW\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#8 E:\WWW\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\WWW\www\framework\web\CWebApplication.php(328): CController->run('')
+#10 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('DataService')
+#11 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#12 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#13 {main} REQUEST_URI=/DataService?method=getAppAd&parameter={%22positionId%22:25,%22time%22:123123123,%22clientInfo%22:%22{\%22appType\%22:\%22ios\%22,\%22connect\%22:\%22\\u79fb\\u52a8\%22,\%22brand\%22:\%22\\u82f9\\u679c\%22,\%22platform\%22:\%22iphone\%22,\%22screenWidth\%22:100,\%22screenHeight\%22:100}%22}&appId=1&ITFV=1.0v
+2015/09/01 10:43:20 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hm_adms_am.hm_appmaterial_20150901' doesn't exist. The SQL statement executed was: insert into hm_appmaterial_20150901 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (23, 5, 1, 16910595, 0, 0, 0, 0, 1441075400).
+2015/09/01 10:43:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hm_adms_am.hm_appmaterial_20150901' doesn't exist. The SQL statement executed was: insert into hm_appmaterial_20150901 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (23, 5, 1, 16910595, 0, 0, 0, 0, 1441075400)' in E:\WWW\www\framework\db\CDbCommand.php:338
+Stack trace:
+#0 E:\WWW\www\hiad-interface\protected\models\AppStatistics.php(165): CDbCommand->execute()
+#1 E:\WWW\www\hiad-interface\protected\models\AppStatistics.php(113): AppStatistics->addMaterialData(Array, Array)
+#2 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(52): AppStatistics->addStatDetail(Array)
+#3 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(25): AppAdController->_getReturnData()
+#4 E:\WWW\www\hiad-interface\protected\controllers\DataServiceController.php(32): AppAdController->adInfo()
+#5 E:\WWW\www\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#6 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#7 E:\WWW\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#8 E:\WWW\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\WWW\www\framework\web\CWebApplication.php(328): CController->run('')
+#10 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('DataService')
+#11 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#12 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#13 {main} REQUEST_URI=/DataService?method=getAppAd&parameter={%22positionId%22:25,%22time%22:123123123,%22clientInfo%22:%22{\%22appType\%22:\%22ios\%22,\%22connect\%22:\%22\\u79fb\\u52a8\%22,\%22brand\%22:\%22\\u82f9\\u679c\%22,\%22platform\%22:\%22iphone\%22,\%22screenWidth\%22:100,\%22screenHeight\%22:100}%22}&appId=1&ITFV=1.0v
+2015/09/01 16:49:49 [error] [php] Undefined offset: 241 (E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php:254)
+Stack trace:
+#0 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(41): AppAdController->_getAdAttr()
+#1 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(25): AppAdController->_getReturnData()
+#2 E:\WWW\www\hiad-interface\protected\controllers\DataServiceController.php(32): AppAdController->adInfo()
+#3 E:\WWW\www\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#4 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams()
+#5 E:\WWW\www\framework\web\CController.php(278): DataServiceController->runAction()
+#6 E:\WWW\www\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#7 E:\WWW\www\framework\web\CWebApplication.php(328): DataServiceController->run()
+#8 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#9 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#10 E:\WWW\www\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/DataService?method=getAppAd&parameter={%22positionId%22:25,%22time%22:123123123,%22clientInfo%22:%22{\%22appType\%22:\%22ios\%22,\%22connect\%22:\%22\\u79fb\\u52a8\%22,\%22brand\%22:\%22\\u82f9\\u679c\%22,\%22platform\%22:\%22iphone\%22,\%22screenWidth\%22:100,\%22screenHeight\%22:100}%22}&appId=1&ITFV=1.0v
+2015/09/01 17:12:05 [error] [php] Undefined offset: 241 (E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php:254)
+Stack trace:
+#0 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(41): AppAdController->_getAdAttr()
+#1 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(25): AppAdController->_getReturnData()
+#2 E:\WWW\www\hiad-interface\protected\controllers\DataServiceController.php(32): AppAdController->adInfo()
+#3 E:\WWW\www\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#4 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams()
+#5 E:\WWW\www\framework\web\CController.php(278): DataServiceController->runAction()
+#6 E:\WWW\www\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#7 E:\WWW\www\framework\web\CWebApplication.php(328): DataServiceController->run()
+#8 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#9 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#10 E:\WWW\www\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/DataService?method=getAppAd&parameter={%22positionId%22:25,%22time%22:123123123,%22clientInfo%22:%22{\%22appType\%22:\%22ios\%22,\%22connect\%22:\%22\\u79fb\\u52a8\%22,\%22brand\%22:\%22\\u82f9\\u679c\%22,\%22platform\%22:\%22iphone\%22,\%22screenWidth\%22:100,\%22screenHeight\%22:100}%22}&appId=1&ITFV=1.0v
+2015/09/01 17:15:47 [error] [php] Undefined offset: 550 (E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php:254)
+Stack trace:
+#0 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(41): AppAdController->_getAdAttr()
+#1 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(25): AppAdController->_getReturnData()
+#2 E:\WWW\www\hiad-interface\protected\controllers\DataServiceController.php(32): AppAdController->adInfo()
+#3 E:\WWW\www\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#4 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams()
+#5 E:\WWW\www\framework\web\CController.php(278): DataServiceController->runAction()
+#6 E:\WWW\www\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#7 E:\WWW\www\framework\web\CWebApplication.php(328): DataServiceController->run()
+#8 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#9 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#10 E:\WWW\www\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/DataService?method=getAppAd&parameter={%22positionId%22:25,%22time%22:123123123,%22clientInfo%22:%22{\%22appType\%22:\%22ios\%22,\%22connect\%22:\%22\\u79fb\\u52a8\%22,\%22brand\%22:\%22\\u82f9\\u679c\%22,\%22platform\%22:\%22iphone\%22,\%22screenWidth\%22:100,\%22screenHeight\%22:100}%22}&appId=1&ITFV=1.0v
+2015/09/01 17:19:37 [error] [php] Undefined variable: arrAppAdData (E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php:247)
+Stack trace:
+#0 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(41): AppAdController->_getAdAttr()
+#1 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(25): AppAdController->_getReturnData()
+#2 E:\WWW\www\hiad-interface\protected\controllers\DataServiceController.php(32): AppAdController->adInfo()
+#3 E:\WWW\www\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#4 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams()
+#5 E:\WWW\www\framework\web\CController.php(278): DataServiceController->runAction()
+#6 E:\WWW\www\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#7 E:\WWW\www\framework\web\CWebApplication.php(328): DataServiceController->run()
+#8 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#9 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#10 E:\WWW\www\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/DataService?method=getAppAd&parameter={%22positionId%22:25,%22time%22:123123123,%22clientInfo%22:%22{\%22appType\%22:\%22ios\%22,\%22connect\%22:\%22\\u79fb\\u52a8\%22,\%22brand\%22:\%22\\u82f9\\u679c\%22,\%22platform\%22:\%22iphone\%22,\%22screenWidth\%22:100,\%22screenHeight\%22:100}%22}&appId=1&ITFV=1.0v
+2015/09/01 17:40:42 [error] [php] Undefined variable: _adMaterialInfo (E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php:415)
+Stack trace:
+#0 E:\WWW\www\hiad-interface\protected\controllers\DataServiceController.php(32): AppAdController->adInfo()
+#1 E:\WWW\www\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#2 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams()
+#3 E:\WWW\www\framework\web\CController.php(278): DataServiceController->runAction()
+#4 E:\WWW\www\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#5 E:\WWW\www\framework\web\CWebApplication.php(328): DataServiceController->run()
+#6 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#7 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#8 E:\WWW\www\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/DataService?method=getAppAd&parameter={%22positionId%22:25,%22time%22:123123123,%22clientInfo%22:%22{\%22appType\%22:\%22ios\%22,\%22connect\%22:\%22\\u79fb\\u52a8\%22,\%22brand\%22:\%22\\u82f9\\u679c\%22,\%22platform\%22:\%22iphone\%22,\%22screenWidth\%22:320,\%22screenHeight\%22:480}%22}&appId=1&ITFV=1.0v
+2015/09/18 10:26:16 [error] [php] Function eregi() is deprecated (E:\WWW\www\hiad-interface\protected\controllers\HimiController.php:15)
+Stack trace:
+#0 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams()
+#1 E:\WWW\www\framework\web\CController.php(278): HimiController->runAction()
+#2 E:\WWW\www\framework\web\CController.php(257): HimiController->runActionWithFilters()
+#3 E:\WWW\www\framework\web\CWebApplication.php(328): HimiController->run()
+#4 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#5 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#6 E:\WWW\www\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/Himi?Pid=110&referer=null&sWidth=1280&sHeight=1024&isFlash=true
+2015/09/18 10:26:26 [error] [php] Function eregi() is deprecated (E:\WWW\www\hiad-interface\protected\controllers\HimiController.php:15)
+Stack trace:
+#0 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams()
+#1 E:\WWW\www\framework\web\CController.php(278): HimiController->runAction()
+#2 E:\WWW\www\framework\web\CController.php(257): HimiController->runActionWithFilters()
+#3 E:\WWW\www\framework\web\CWebApplication.php(328): HimiController->run()
+#4 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#5 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#6 E:\WWW\www\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/Himi?Pid=110&referer=null&sWidth=1280&sHeight=1024&isFlash=true
+2015/09/18 10:28:08 [error] [php] Function eregi() is deprecated (E:\WWW\www\hiad-interface\protected\controllers\HimiController.php:15)
+Stack trace:
+#0 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams()
+#1 E:\WWW\www\framework\web\CController.php(278): HimiController->runAction()
+#2 E:\WWW\www\framework\web\CController.php(257): HimiController->runActionWithFilters()
+#3 E:\WWW\www\framework\web\CWebApplication.php(328): HimiController->run()
+#4 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#5 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#6 E:\WWW\www\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/Himi?Pid=110&referer=null&sWidth=1280&sHeight=1024&isFlash=true
+2015/09/18 10:28:22 [error] [php] Function eregi() is deprecated (E:\WWW\www\hiad-interface\protected\controllers\HimiController.php:15)
+Stack trace:
+#0 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams()
+#1 E:\WWW\www\framework\web\CController.php(278): HimiController->runAction()
+#2 E:\WWW\www\framework\web\CController.php(257): HimiController->runActionWithFilters()
+#3 E:\WWW\www\framework\web\CWebApplication.php(328): HimiController->run()
+#4 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#5 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#6 E:\WWW\www\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/Himi?Pid=110&referer=null&sWidth=1280&sHeight=1024&isFlash=true
+2015/09/18 10:28:38 [error] [php] Function eregi() is deprecated (E:\WWW\www\hiad-interface\protected\controllers\HimiController.php:15)
+Stack trace:
+#0 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams()
+#1 E:\WWW\www\framework\web\CController.php(278): HimiController->runAction()
+#2 E:\WWW\www\framework\web\CController.php(257): HimiController->runActionWithFilters()
+#3 E:\WWW\www\framework\web\CWebApplication.php(328): HimiController->run()
+#4 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#5 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#6 E:\WWW\www\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/Himi?Pid=110&referer=null&sWidth=1280&sHeight=1024&isFlash=true
+2015/09/18 10:30:51 [error] [php] Function eregi() is deprecated (E:\WWW\www\hiad-interface\protected\controllers\HimiController.php:15)
+Stack trace:
+#0 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams()
+#1 E:\WWW\www\framework\web\CController.php(278): HimiController->runAction()
+#2 E:\WWW\www\framework\web\CController.php(257): HimiController->runActionWithFilters()
+#3 E:\WWW\www\framework\web\CWebApplication.php(328): HimiController->run()
+#4 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#5 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#6 E:\WWW\www\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/Himi?Pid=110&referer=null&sWidth=1280&sHeight=1024&isFlash=true
+2015/09/18 10:58:36 [error] [php] Array to string conversion (E:\WWW\www\hiad-interface\protected\models\Ad.php:389)
+Stack trace:
+#0 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams()
+#1 E:\WWW\www\framework\web\CController.php(278): HimiController->runAction()
+#2 E:\WWW\www\framework\web\CController.php(257): HimiController->runActionWithFilters()
+#3 E:\WWW\www\framework\web\CWebApplication.php(328): HimiController->run()
+#4 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#5 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#6 E:\WWW\www\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/Himi?Pid=110&referer=null&sWidth=1280&sHeight=1024&isFlash=true
+2015/09/18 11:05:57 [error] [php] Undefined variable: ip (E:\WWW\www\hiad-interface\protected\models\Ad.php:163)
+Stack trace:
+#0 E:\WWW\www\framework\web\actions\CInlineAction.php(50): HimiController->actionIndex()
+#1 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams()
+#2 E:\WWW\www\framework\web\CController.php(278): HimiController->runAction()
+#3 E:\WWW\www\framework\web\CController.php(257): HimiController->runActionWithFilters()
+#4 E:\WWW\www\framework\web\CWebApplication.php(328): HimiController->run()
+#5 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#6 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#7 E:\WWW\www\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/Himi?Pid=110&referer=null&sWidth=1280&sHeight=1024&isFlash=true
+2015/09/18 11:06:43 [error] [php] Undefined variable: ip (E:\WWW\www\hiad-interface\protected\models\Ad.php:163)
+Stack trace:
+#0 E:\WWW\www\framework\web\actions\CInlineAction.php(50): HimiController->actionIndex()
+#1 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams()
+#2 E:\WWW\www\framework\web\CController.php(278): HimiController->runAction()
+#3 E:\WWW\www\framework\web\CController.php(257): HimiController->runActionWithFilters()
+#4 E:\WWW\www\framework\web\CWebApplication.php(328): HimiController->run()
+#5 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#6 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#7 E:\WWW\www\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/Himi?Pid=110&referer=null&sWidth=1280&sHeight=1024&isFlash=true
+2015/09/18 11:06:58 [error] [php] Undefined variable: ip (E:\WWW\www\hiad-interface\protected\models\Ad.php:163)
+Stack trace:
+#0 E:\WWW\www\framework\web\actions\CInlineAction.php(50): HimiController->actionIndex()
+#1 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams()
+#2 E:\WWW\www\framework\web\CController.php(278): HimiController->runAction()
+#3 E:\WWW\www\framework\web\CController.php(257): HimiController->runActionWithFilters()
+#4 E:\WWW\www\framework\web\CWebApplication.php(328): HimiController->run()
+#5 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#6 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#7 E:\WWW\www\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/Himi?Pid=110&referer=null&sWidth=1280&sHeight=1024&isFlash=true
+2015/09/18 11:08:51 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.0.1, 0, 0, 1, 0, 1442545730)' at line 1. The SQL statement executed was: insert into hm_sitematerial_20150918 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (26, 1, 1, 127.0.0.1, 0, 0, 1, 0, 1442545730).
+2015/09/18 11:08:51 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.0.1, 0, 0, 1, 0, 1442545730)' at line 1. The SQL statement executed was: insert into hm_sitematerial_20150918 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (26, 1, 1, 127.0.0.1, 0, 0, 1, 0, 1442545730)' in E:\WWW\www\framework\db\CDbCommand.php:338
+Stack trace:
+#0 E:\WWW\www\hiad-interface\protected\models\SiteStatistics.php(148): CDbCommand->execute()
+#1 E:\WWW\www\hiad-interface\protected\models\SiteStatistics.php(93): SiteStatistics->addMaterialData(Array, Array)
+#2 E:\WWW\www\hiad-interface\protected\controllers\HimiController.php(91): SiteStatistics->addMaterialStatForSite(Array, Array)
+#3 E:\WWW\www\framework\web\actions\CInlineAction.php(50): HimiController->actionIndex()
+#4 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#5 E:\WWW\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#6 E:\WWW\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\WWW\www\framework\web\CWebApplication.php(328): CController->run('')
+#8 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('Himi')
+#9 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#10 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#11 {main} REQUEST_URI=/Himi?Pid=110&referer=null&sWidth=1280&sHeight=1024&isFlash=true
+2015/09/18 11:10:59 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.0.1, 0, 0, 1, 0, 1442545859)' at line 1. The SQL statement executed was: insert into hm_sitematerial_20150918 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (25, 4, 1, 127.0.0.1, 0, 0, 1, 0, 1442545859).
+2015/09/18 11:10:59 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.0.1, 0, 0, 1, 0, 1442545859)' at line 1. The SQL statement executed was: insert into hm_sitematerial_20150918 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (25, 4, 1, 127.0.0.1, 0, 0, 1, 0, 1442545859)' in E:\WWW\www\framework\db\CDbCommand.php:338
+Stack trace:
+#0 E:\WWW\www\hiad-interface\protected\models\SiteStatistics.php(148): CDbCommand->execute()
+#1 E:\WWW\www\hiad-interface\protected\models\SiteStatistics.php(93): SiteStatistics->addMaterialData(Array, Array)
+#2 E:\WWW\www\hiad-interface\protected\controllers\HimiController.php(91): SiteStatistics->addMaterialStatForSite(Array, Array)
+#3 E:\WWW\www\framework\web\actions\CInlineAction.php(50): HimiController->actionIndex()
+#4 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#5 E:\WWW\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#6 E:\WWW\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\WWW\www\framework\web\CWebApplication.php(328): CController->run('')
+#8 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('Himi')
+#9 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#10 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#11 {main} REQUEST_URI=/Himi?Pid=110&referer=null&sWidth=1280&sHeight=1024&isFlash=true
+2015/09/18 11:12:57 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.0.1, 0, 0, 1, 0, 1442545977)' at line 1. The SQL statement executed was: insert into hm_sitematerial_20150918 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (26, 6, 1, 127.0.0.1, 0, 0, 1, 0, 1442545977).
+2015/09/18 11:12:57 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.0.1, 0, 0, 1, 0, 1442545977)' at line 1. The SQL statement executed was: insert into hm_sitematerial_20150918 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (26, 6, 1, 127.0.0.1, 0, 0, 1, 0, 1442545977)' in E:\WWW\www\framework\db\CDbCommand.php:338
+Stack trace:
+#0 E:\WWW\www\hiad-interface\protected\models\SiteStatistics.php(149): CDbCommand->execute()
+#1 E:\WWW\www\hiad-interface\protected\models\SiteStatistics.php(93): SiteStatistics->addMaterialData(Array, Array)
+#2 E:\WWW\www\hiad-interface\protected\controllers\HimiController.php(91): SiteStatistics->addMaterialStatForSite(Array, Array)
+#3 E:\WWW\www\framework\web\actions\CInlineAction.php(50): HimiController->actionIndex()
+#4 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#5 E:\WWW\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#6 E:\WWW\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\WWW\www\framework\web\CWebApplication.php(328): CController->run('')
+#8 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('Himi')
+#9 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#10 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#11 {main} REQUEST_URI=/Himi?Pid=110&referer=null&sWidth=1280&sHeight=1024&isFlash=true
+2015/09/18 11:18:10 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.0.1, 0, 0, 1, 0, 1442546290)' at line 1. The SQL statement executed was: insert into hm_sitematerial_20150918 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (26, 9, 1, 127.0.0.1, 0, 0, 1, 0, 1442546290).
+2015/09/18 11:18:10 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.0.1, 0, 0, 1, 0, 1442546290)' at line 1. The SQL statement executed was: insert into hm_sitematerial_20150918 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (26, 9, 1, 127.0.0.1, 0, 0, 1, 0, 1442546290)' in E:\WWW\www\framework\db\CDbCommand.php:338
+Stack trace:
+#0 E:\WWW\www\hiad-interface\protected\models\SiteStatistics.php(148): CDbCommand->execute()
+#1 E:\WWW\www\hiad-interface\protected\models\SiteStatistics.php(93): SiteStatistics->addMaterialData(Array, Array)
+#2 E:\WWW\www\hiad-interface\protected\controllers\HimiController.php(91): SiteStatistics->addMaterialStatForSite(Array, Array)
+#3 E:\WWW\www\framework\web\actions\CInlineAction.php(50): HimiController->actionIndex()
+#4 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#5 E:\WWW\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#6 E:\WWW\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\WWW\www\framework\web\CWebApplication.php(328): CController->run('')
+#8 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('Himi')
+#9 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#10 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#11 {main} REQUEST_URI=/Himi?Pid=110&referer=null&sWidth=1280&sHeight=1024&isFlash=true
+2015/09/18 11:18:32 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.0.1, 0, 0, 1, 0, 1442546312)' at line 1. The SQL statement executed was: insert into hm_sitematerial_20150918 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (25, 11, 1, 127.0.0.1, 0, 0, 1, 0, 1442546312).
+2015/09/18 11:18:32 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.0.1, 0, 0, 1, 0, 1442546312)' at line 1. The SQL statement executed was: insert into hm_sitematerial_20150918 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (25, 11, 1, 127.0.0.1, 0, 0, 1, 0, 1442546312)' in E:\WWW\www\framework\db\CDbCommand.php:338
+Stack trace:
+#0 E:\WWW\www\hiad-interface\protected\models\SiteStatistics.php(148): CDbCommand->execute()
+#1 E:\WWW\www\hiad-interface\protected\models\SiteStatistics.php(93): SiteStatistics->addMaterialData(Array, Array)
+#2 E:\WWW\www\hiad-interface\protected\controllers\HimiController.php(91): SiteStatistics->addMaterialStatForSite(Array, Array)
+#3 E:\WWW\www\framework\web\actions\CInlineAction.php(50): HimiController->actionIndex()
+#4 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#5 E:\WWW\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#6 E:\WWW\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\WWW\www\framework\web\CWebApplication.php(328): CController->run('')
+#8 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('Himi')
+#9 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#10 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#11 {main} REQUEST_URI=/Himi?Pid=110&referer=null&sWidth=1280&sHeight=1024&isFlash=true
+2015/09/18 11:20:51 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column '127.0.0.1' in 'field list'. The SQL statement executed was: insert into hm_sitematerial_20150918 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (25, 13, 1, `127.0.0.1`, 0, 0, 1, 0, 1442546451).
+2015/09/18 11:20:51 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column '127.0.0.1' in 'field list'. The SQL statement executed was: insert into hm_sitematerial_20150918 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (25, 13, 1, `127.0.0.1`, 0, 0, 1, 0, 1442546451)' in E:\WWW\www\framework\db\CDbCommand.php:338
+Stack trace:
+#0 E:\WWW\www\hiad-interface\protected\models\SiteStatistics.php(148): CDbCommand->execute()
+#1 E:\WWW\www\hiad-interface\protected\models\SiteStatistics.php(93): SiteStatistics->addMaterialData(Array, Array)
+#2 E:\WWW\www\hiad-interface\protected\controllers\HimiController.php(91): SiteStatistics->addMaterialStatForSite(Array, Array)
+#3 E:\WWW\www\framework\web\actions\CInlineAction.php(50): HimiController->actionIndex()
+#4 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#5 E:\WWW\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#6 E:\WWW\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\WWW\www\framework\web\CWebApplication.php(328): CController->run('')
+#8 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('Himi')
+#9 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#10 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#11 {main} REQUEST_URI=/Himi?Pid=110&referer=null&sWidth=1280&sHeight=1024&isFlash=true
+2015/09/21 16:50:31 [error] [exception.CException] exception 'CException' with message '属性 "CWebApplication.db_stat_thrid" 未被定义.' in E:\WWW\www\framework\base\CComponent.php:131
+Stack trace:
+#0 E:\WWW\www\framework\base\CModule.php(88): CComponent->__get('db_stat_thrid')
+#1 E:\WWW\www\hiad-interface\protected\models\ThridStat.php(10): CModule->__get('db_stat_thrid')
+#2 E:\WWW\www\hiad-interface\protected\controllers\ThridAdController.php(26): ThridStat->__construct('20150921')
+#3 E:\WWW\www\framework\web\actions\CInlineAction.php(50): ThridAdController->actionIndex()
+#4 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#5 E:\WWW\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#6 E:\WWW\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\WWW\www\framework\web\CWebApplication.php(328): CController->run('')
+#8 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('thridAd')
+#9 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#10 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#11 {main} REQUEST_URI=/thridAd?pid=112
+2015/09/21 16:50:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in E:\WWW\www\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2015/09/21 16:50:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in E:\WWW\www\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2015/09/21 16:51:37 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hm_adms_thrid.thrid_20150921' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `thrid_20150921`.
+2015/09/21 16:51:37 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "ThridStat" 对应的 table "{{thrid_20150921}}".' in E:\WWW\www\framework\db\ar\CActiveRecord.php:2237
+Stack trace:
+#0 E:\WWW\www\hiad-interface\protected\models\ThridStat.php(24): CActiveRecordMetaData->__construct(Object(ThridStat))
+#1 E:\WWW\www\hiad-interface\protected\models\ThridStat.php(47): ThridStat::model('20150921')
+#2 E:\WWW\www\framework\db\ar\CActiveRecord.php(62): ThridStat->getMetaData()
+#3 E:\WWW\www\hiad-interface\protected\models\ThridStat.php(13): CActiveRecord->__construct()
+#4 E:\WWW\www\hiad-interface\protected\controllers\ThridAdController.php(26): ThridStat->__construct('20150921')
+#5 E:\WWW\www\framework\web\actions\CInlineAction.php(50): ThridAdController->actionIndex()
+#6 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#7 E:\WWW\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#8 E:\WWW\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\WWW\www\framework\web\CWebApplication.php(328): CController->run('')
+#10 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('thridAd')
+#11 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#12 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#13 {main} REQUEST_URI=/thridAd?pid=112
+2015/09/23 16:44:28 [error] [exception.CException] exception 'CException' with message '属性 "CHttpRequest.isGetRequest" 未被定义.' in E:\WWW\www\framework\base\CComponent.php:131
+Stack trace:
+#0 E:\WWW\www\hiad-interface\protected\controllers\DataServiceController.php(17): CComponent->__get('isGetRequest')
+#1 E:\WWW\www\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#2 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#3 E:\WWW\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#4 E:\WWW\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 E:\WWW\www\framework\web\CWebApplication.php(328): CController->run('')
+#6 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('DataService')
+#7 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#8 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#9 {main} REQUEST_URI=/DataService/?ITFV=1&parameter=11&method=getAppAd&appid=1&appkey=1184ee5c4989b41dbef3d8be0ad30dbb&time=123123&clientInfo=212312&positionId=1
+2015/09/23 17:42:22 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hm_adms_thrid.thrid_20150923' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `thrid_20150923`.
+2015/09/23 17:42:22 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "ThridStat" 对应的 table "{{thrid_20150923}}".' in E:\WWW\www\framework\db\ar\CActiveRecord.php:2237
+Stack trace:
+#0 E:\WWW\www\hiad-interface\protected\models\ThridStat.php(24): CActiveRecordMetaData->__construct(Object(ThridStat))
+#1 E:\WWW\www\hiad-interface\protected\models\ThridStat.php(47): ThridStat::model('20150923')
+#2 E:\WWW\www\framework\db\ar\CActiveRecord.php(62): ThridStat->getMetaData()
+#3 E:\WWW\www\hiad-interface\protected\models\ThridStat.php(13): CActiveRecord->__construct()
+#4 E:\WWW\www\hiad-interface\protected\controllers\ThridAdController.php(26): ThridStat->__construct('20150923')
+#5 E:\WWW\www\framework\web\actions\CInlineAction.php(50): ThridAdController->actionIndex()
+#6 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#7 E:\WWW\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#8 E:\WWW\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\WWW\www\framework\web\CWebApplication.php(328): CController->run('')
+#10 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('thridAd')
+#11 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#12 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#13 {main} REQUEST_URI=/thridAd?pid=112
+2015/09/24 09:56:02 [error] [php] json_decode() expects parameter 1 to be string, array given (E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php:70)
+Stack trace:
+#0 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(25): AppAdController->_getReturnData()
+#1 E:\WWW\www\hiad-interface\protected\controllers\DataServiceController.php(35): AppAdController->adInfo()
+#2 E:\WWW\www\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#3 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams()
+#4 E:\WWW\www\framework\web\CController.php(278): DataServiceController->runAction()
+#5 E:\WWW\www\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#6 E:\WWW\www\framework\web\CWebApplication.php(328): DataServiceController->run()
+#7 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#8 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#9 E:\WWW\www\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/DataService/?ITFV=1&parameter={%22time%22:%201443059742,%22positionId%22:%2079,%22clientInfo%22:%20{%22appType%22:%20%22ios%22,%22width%22:%20100,%22height%22:%20100,%22left%22:%20100,%22top%22:%20100}}&method=getAppAd&appId=1&appkey=1184ee5c4989b41dbef3d8be0ad30dbb&time=123123&clientInfo=212312&positionId=1&appType=ios
+2015/09/24 09:58:20 [error] [php] Undefined index: connect (E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php:199)
+Stack trace:
+#0 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(41): AppAdController->_getAdAttr()
+#1 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(25): AppAdController->_getReturnData()
+#2 E:\WWW\www\hiad-interface\protected\controllers\DataServiceController.php(35): AppAdController->adInfo()
+#3 E:\WWW\www\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#4 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams()
+#5 E:\WWW\www\framework\web\CController.php(278): DataServiceController->runAction()
+#6 E:\WWW\www\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#7 E:\WWW\www\framework\web\CWebApplication.php(328): DataServiceController->run()
+#8 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#9 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#10 E:\WWW\www\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/DataService/?ITFV=1&parameter={%22time%22:%201443059864,%22positionId%22:%2079,%22clientInfo%22:%20%22{\%22appType\%22:\%22ios\%22,\%22width\%22:100,\%22height\%22:100,\%22left\%22:100,\%22top\%22:100}%22}&method=getAppAd&appId=1&appkey=1184ee5c4989b41dbef3d8be0ad30dbb&time=123123&clientInfo=212312&positionId=1&appType=ios
+2015/09/24 10:01:09 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hm_adms_am.hm_appmaterial_20150924' doesn't exist. The SQL statement executed was: insert into hm_appmaterial_20150924 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (24, 8, 1, 16910595, 0, 0, 1, 0, 1443060069).
+2015/09/24 10:01:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hm_adms_am.hm_appmaterial_20150924' doesn't exist. The SQL statement executed was: insert into hm_appmaterial_20150924 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (24, 8, 1, 16910595, 0, 0, 1, 0, 1443060069)' in E:\WWW\www\framework\db\CDbCommand.php:338
+Stack trace:
+#0 E:\WWW\www\hiad-interface\protected\models\AppStatistics.php(165): CDbCommand->execute()
+#1 E:\WWW\www\hiad-interface\protected\models\AppStatistics.php(113): AppStatistics->addMaterialData(Array, Array)
+#2 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(51): AppStatistics->addStatDetail(Array)
+#3 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(25): AppAdController->_getReturnData()
+#4 E:\WWW\www\hiad-interface\protected\controllers\DataServiceController.php(35): AppAdController->adInfo()
+#5 E:\WWW\www\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#6 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#7 E:\WWW\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#8 E:\WWW\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\WWW\www\framework\web\CWebApplication.php(328): CController->run('')
+#10 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('DataService')
+#11 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#12 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#13 {main} REQUEST_URI=/DataService/?ITFV=1&parameter={%22positionId%22:%2025,%22time%22:%20123123123,%22clientInfo%22:%20%22{\%22appType\%22:\%22ios\%22,\%22connect\%22:\%22\\u79fb\\u52a8\%22,\%22brand\%22:\%22\\u82f9\\u679c\%22,\%22platform\%22:\%22iphone\%22,\%22screenWidth\%22:100,\%22screenHeight\%22:100}%22}&method=getAppAd&appId=1&appkey=1184ee5c4989b41dbef3d8be0ad30dbb&time=123123&clientInfo=212312&positionId=1&appType=ios
+2015/09/24 10:25:40 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hm_adms_am.hm_appmaterial_20150924' doesn't exist. The SQL statement executed was: insert into hm_appmaterial_20150924 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (24, 1, 1, 16910595, 0, 0, 1, 0, 1443061539).
+2015/09/24 10:25:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hm_adms_am.hm_appmaterial_20150924' doesn't exist. The SQL statement executed was: insert into hm_appmaterial_20150924 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (24, 1, 1, 16910595, 0, 0, 1, 0, 1443061539)' in E:\WWW\www\framework\db\CDbCommand.php:338
+Stack trace:
+#0 E:\WWW\www\hiad-interface\protected\models\AppStatistics.php(166): CDbCommand->execute()
+#1 E:\WWW\www\hiad-interface\protected\models\AppStatistics.php(114): AppStatistics->addMaterialData(Array, Array)
+#2 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(51): AppStatistics->addStatDetail(Array)
+#3 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(25): AppAdController->_getReturnData()
+#4 E:\WWW\www\hiad-interface\protected\controllers\DataServiceController.php(37): AppAdController->adInfo()
+#5 E:\WWW\www\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#6 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#7 E:\WWW\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#8 E:\WWW\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\WWW\www\framework\web\CWebApplication.php(328): CController->run('')
+#10 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('DataService')
+#11 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#12 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#13 {main} REQUEST_URI=/DataService/?ITFV=1&parameter={%22positionId%22:%2079,%22time%22:%20123123123,%22clientInfo%22:%20%22{\%22appType\%22:\%22ios\%22,\%22connect\%22:\%22\\u79fb\\u52a8\%22,\%22brand\%22:\%22\\u82f9\\u679c\%22,\%22platform\%22:\%22iphone\%22,\%22screenWidth\%22:100,\%22screenHeight\%22:100}%22}&method=getAppAd&appId=1&appkey=1184ee5c4989b41dbef3d8be0ad30dbb
+2015/09/24 10:29:23 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hm_adms_am.hm_appmaterial_20150924' doesn't exist. The SQL statement executed was: insert into hm_appmaterial_20150924 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (24, 4, 1, 16910595, 0, 0, 1, 0, 1443061763).
+2015/09/24 10:29:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hm_adms_am.hm_appmaterial_20150924' doesn't exist. The SQL statement executed was: insert into hm_appmaterial_20150924 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (24, 4, 1, 16910595, 0, 0, 1, 0, 1443061763)' in E:\WWW\www\framework\db\CDbCommand.php:338
+Stack trace:
+#0 E:\WWW\www\hiad-interface\protected\models\AppStatistics.php(165): CDbCommand->execute()
+#1 E:\WWW\www\hiad-interface\protected\models\AppStatistics.php(113): AppStatistics->addMaterialData(Array, Array)
+#2 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(51): AppStatistics->addStatDetail(Array)
+#3 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(25): AppAdController->_getReturnData()
+#4 E:\WWW\www\hiad-interface\protected\controllers\DataServiceController.php(37): AppAdController->adInfo()
+#5 E:\WWW\www\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#6 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#7 E:\WWW\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#8 E:\WWW\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\WWW\www\framework\web\CWebApplication.php(328): CController->run('')
+#10 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('DataService')
+#11 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#12 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#13 {main} REQUEST_URI=/DataService/?ITFV=1&parameter={%22positionId%22:%2079,%22time%22:%20123123123,%22clientInfo%22:%20%22{\%22appType\%22:\%22ios\%22,\%22connect\%22:\%22\\u79fb\\u52a8\%22,\%22brand\%22:\%22\\u82f9\\u679c\%22,\%22platform\%22:\%22iphone\%22,\%22screenWidth\%22:100,\%22screenHeight\%22:100}%22}&method=getAppAd&appId=1&appkey=1184ee5c4989b41dbef3d8be0ad30dbb
+2015/09/24 10:38:31 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hm_adms_am.hm_appmaterial_20150924' doesn't exist. The SQL statement executed was: insert into hm_appmaterial_20150924 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (24, 5, 1, 16910595, 0, 0, 1, 0, 1443062311).
+2015/09/24 10:38:31 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hm_adms_am.hm_appmaterial_20150924' doesn't exist. The SQL statement executed was: insert into hm_appmaterial_20150924 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (24, 5, 1, 16910595, 0, 0, 1, 0, 1443062311)' in E:\WWW\www\framework\db\CDbCommand.php:338
+Stack trace:
+#0 E:\WWW\www\hiad-interface\protected\models\AppStatistics.php(167): CDbCommand->execute()
+#1 E:\WWW\www\hiad-interface\protected\models\AppStatistics.php(115): AppStatistics->addMaterialData(Array, Array)
+#2 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(51): AppStatistics->addStatDetail(Array)
+#3 E:\WWW\www\hiad-interface\protected\controllers\AppAdController.php(25): AppAdController->_getReturnData()
+#4 E:\WWW\www\hiad-interface\protected\controllers\DataServiceController.php(37): AppAdController->adInfo()
+#5 E:\WWW\www\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#6 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#7 E:\WWW\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#8 E:\WWW\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\WWW\www\framework\web\CWebApplication.php(328): CController->run('')
+#10 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('DataService')
+#11 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#12 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#13 {main} REQUEST_URI=/DataService/?ITFV=1&parameter={%22positionId%22:%2079,%22time%22:%20123123123,%22clientInfo%22:%20%22{\%22appType\%22:\%22ios\%22,\%22connect\%22:\%22\\u79fb\\u52a8\%22,\%22brand\%22:\%22\\u82f9\\u679c\%22,\%22platform\%22:\%22iphone\%22,\%22screenWidth\%22:100,\%22screenHeight\%22:100}%22}&method=getAppAd&appId=1&appkey=1184ee5c4989b41dbef3d8be0ad30dbb
+2015/09/24 10:44:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "test.html"。' in E:\WWW\www\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('test.html')
+#1 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#3 {main} REQUEST_URI=/test.html
+2015/09/24 10:44:11 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hm_adms_sm.hm_sitematerial_20150924' doesn't exist. The SQL statement executed was: insert into hm_sitematerial_20150924 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (25, 1, 1, '2130706433', 0, 0, 1, 0, 1443062651).
+2015/09/24 10:44:11 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hm_adms_sm.hm_sitematerial_20150924' doesn't exist. The SQL statement executed was: insert into hm_sitematerial_20150924 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (25, 1, 1, '2130706433', 0, 0, 1, 0, 1443062651)' in E:\WWW\www\framework\db\CDbCommand.php:338
+Stack trace:
+#0 E:\WWW\www\hiad-interface\protected\models\SiteStatistics.php(148): CDbCommand->execute()
+#1 E:\WWW\www\hiad-interface\protected\models\SiteStatistics.php(93): SiteStatistics->addMaterialData(Array, Array)
+#2 E:\WWW\www\hiad-interface\protected\controllers\HimiController.php(91): SiteStatistics->addMaterialStatForSite(Array, Array)
+#3 E:\WWW\www\framework\web\actions\CInlineAction.php(50): HimiController->actionIndex()
+#4 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#5 E:\WWW\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#6 E:\WWW\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\WWW\www\framework\web\CWebApplication.php(328): CController->run('')
+#8 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('Himi')
+#9 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#10 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#11 {main} REQUEST_URI=/Himi?Pid=110&referer=null&sWidth=1280&sHeight=1024&isFlash=true
+2015/09/24 10:44:50 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hm_adms_sm.hm_sitematerial_20150924' doesn't exist. The SQL statement executed was: insert into hm_sitematerial_20150924 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (25, 2, 1, '2130706433', 0, 0, 1, 0, 1443062690).
+2015/09/24 10:44:50 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hm_adms_sm.hm_sitematerial_20150924' doesn't exist. The SQL statement executed was: insert into hm_sitematerial_20150924 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (25, 2, 1, '2130706433', 0, 0, 1, 0, 1443062690)' in E:\WWW\www\framework\db\CDbCommand.php:338
+Stack trace:
+#0 E:\WWW\www\hiad-interface\protected\models\SiteStatistics.php(148): CDbCommand->execute()
+#1 E:\WWW\www\hiad-interface\protected\models\SiteStatistics.php(93): SiteStatistics->addMaterialData(Array, Array)
+#2 E:\WWW\www\hiad-interface\protected\controllers\HimiController.php(91): SiteStatistics->addMaterialStatForSite(Array, Array)
+#3 E:\WWW\www\framework\web\actions\CInlineAction.php(50): HimiController->actionIndex()
+#4 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#5 E:\WWW\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#6 E:\WWW\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\WWW\www\framework\web\CWebApplication.php(328): CController->run('')
+#8 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('Himi')
+#9 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#10 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#11 {main} REQUEST_URI=/Himi?Pid=110&referer=null&sWidth=1280&sHeight=1024&isFlash=true
+2015/09/24 11:16:20 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hm_adms_sm.hm_sitematerial_20150924' doesn't exist. The SQL statement executed was: insert into hm_sitematerial_20150924 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (25, 3, 1, '2130706433', 0, 0, 1, 0, 1443064580).
+2015/09/24 11:16:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hm_adms_sm.hm_sitematerial_20150924' doesn't exist. The SQL statement executed was: insert into hm_sitematerial_20150924 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (25, 3, 1, '2130706433', 0, 0, 1, 0, 1443064580)' in E:\WWW\www\framework\db\CDbCommand.php:338
+Stack trace:
+#0 E:\WWW\www\hiad-interface\protected\models\SiteStatistics.php(150): CDbCommand->execute()
+#1 E:\WWW\www\hiad-interface\protected\models\SiteStatistics.php(95): SiteStatistics->addMaterialData(Array, Array)
+#2 E:\WWW\www\hiad-interface\protected\controllers\HimiController.php(91): SiteStatistics->addMaterialStatForSite(Array, Array)
+#3 E:\WWW\www\framework\web\actions\CInlineAction.php(50): HimiController->actionIndex()
+#4 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#5 E:\WWW\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#6 E:\WWW\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\WWW\www\framework\web\CWebApplication.php(328): CController->run('')
+#8 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('Himi')
+#9 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#10 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#11 {main} REQUEST_URI=/Himi?Pid=110&referer=null&sWidth=1280&sHeight=1024&isFlash=true
+2015/09/24 11:17:54 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hm_adms_sm.hm_sitematerial_20150924' doesn't exist. The SQL statement executed was: insert into hm_sitematerial_20150924 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (25, 4, 1, '2130706433', 0, 0, 1, 0, 1443064674).
+2015/09/24 11:17:54 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hm_adms_sm.hm_sitematerial_20150924' doesn't exist. The SQL statement executed was: insert into hm_sitematerial_20150924 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (25, 4, 1, '2130706433', 0, 0, 1, 0, 1443064674)' in E:\WWW\www\framework\db\CDbCommand.php:338
+Stack trace:
+#0 E:\WWW\www\hiad-interface\protected\models\SiteStatistics.php(150): CDbCommand->execute()
+#1 E:\WWW\www\hiad-interface\protected\models\SiteStatistics.php(95): SiteStatistics->addMaterialData(Array, Array)
+#2 E:\WWW\www\hiad-interface\protected\controllers\HimiController.php(91): SiteStatistics->addMaterialStatForSite(Array, Array)
+#3 E:\WWW\www\framework\web\actions\CInlineAction.php(50): HimiController->actionIndex()
+#4 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#5 E:\WWW\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#6 E:\WWW\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\WWW\www\framework\web\CWebApplication.php(328): CController->run('')
+#8 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('Himi')
+#9 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#10 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#11 {main} REQUEST_URI=/Himi?Pid=110&referer=null&sWidth=1280&sHeight=1024&isFlash=true
+2015/09/24 11:18:27 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hm_adms_sm.hm_sitematerial_20150924' doesn't exist. The SQL statement executed was: insert into hm_sitematerial_20150924 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (26, 5, 1, '2130706433', 0, 0, 1, 0, 1443064707).
+2015/09/24 11:18:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hm_adms_sm.hm_sitematerial_20150924' doesn't exist. The SQL statement executed was: insert into hm_sitematerial_20150924 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (26, 5, 1, '2130706433', 0, 0, 1, 0, 1443064707)' in E:\WWW\www\framework\db\CDbCommand.php:338
+Stack trace:
+#0 E:\WWW\www\hiad-interface\protected\models\SiteStatistics.php(150): CDbCommand->execute()
+#1 E:\WWW\www\hiad-interface\protected\models\SiteStatistics.php(95): SiteStatistics->addMaterialData(Array, Array)
+#2 E:\WWW\www\hiad-interface\protected\controllers\HimiController.php(91): SiteStatistics->addMaterialStatForSite(Array, Array)
+#3 E:\WWW\www\framework\web\actions\CInlineAction.php(50): HimiController->actionIndex()
+#4 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#5 E:\WWW\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#6 E:\WWW\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\WWW\www\framework\web\CWebApplication.php(328): CController->run('')
+#8 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('Himi')
+#9 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#10 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#11 {main} REQUEST_URI=/Himi?Pid=110&referer=null&sWidth=1280&sHeight=1024&isFlash=true
+2015/09/24 11:20:43 [error] [php] Non-static method SiteStatMate::createStatTable() should not be called statically, assuming $this from incompatible context (E:\WWW\www\hiad-interface\protected\models\SiteStatistics.php:140)
+Stack trace:
+#0 E:\WWW\www\framework\web\actions\CInlineAction.php(50): HimiController->actionIndex()
+#1 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams()
+#2 E:\WWW\www\framework\web\CController.php(278): HimiController->runAction()
+#3 E:\WWW\www\framework\web\CController.php(257): HimiController->runActionWithFilters()
+#4 E:\WWW\www\framework\web\CWebApplication.php(328): HimiController->run()
+#5 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#6 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#7 E:\WWW\www\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/Himi?Pid=110&referer=null&sWidth=1280&sHeight=1024&isFlash=true
+2015/09/24 11:21:44 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hm_adms_sm.hm_sitematerial_20150924' doesn't exist. The SQL statement executed was: insert into hm_sitematerial_20150924 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (26, 7, 1, '2130706433', 0, 0, 1, 0, 1443064904).
+2015/09/24 11:21:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hm_adms_sm.hm_sitematerial_20150924' doesn't exist. The SQL statement executed was: insert into hm_sitematerial_20150924 (material_id, stat_id, com_id, ip, is_click, click_count, cost_mode, cost, create_time) values (26, 7, 1, '2130706433', 0, 0, 1, 0, 1443064904)' in E:\WWW\www\framework\db\CDbCommand.php:338
+Stack trace:
+#0 E:\WWW\www\hiad-interface\protected\models\SiteStatistics.php(150): CDbCommand->execute()
+#1 E:\WWW\www\hiad-interface\protected\models\SiteStatistics.php(95): SiteStatistics->addMaterialData(Array, Array)
+#2 E:\WWW\www\hiad-interface\protected\controllers\HimiController.php(91): SiteStatistics->addMaterialStatForSite(Array, Array)
+#3 E:\WWW\www\framework\web\actions\CInlineAction.php(50): HimiController->actionIndex()
+#4 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#5 E:\WWW\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#6 E:\WWW\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\WWW\www\framework\web\CWebApplication.php(328): CController->run('')
+#8 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('Himi')
+#9 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#10 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#11 {main} REQUEST_URI=/Himi?Pid=110&referer=null&sWidth=1280&sHeight=1024&isFlash=true
+2015/09/24 14:48:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "Postion/videoPostion"。' in E:\WWW\www\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('Postion/videoPo...')
+#1 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#3 {main} REQUEST_URI=/Postion/videoPostion
+2015/09/24 14:49:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "videoPosition" 动作.' in E:\WWW\www\framework\web\CController.php:477
+Stack trace:
+#0 E:\WWW\www\framework\web\CController.php(262): CController->missingAction('videoPosition')
+#1 E:\WWW\www\framework\web\CWebApplication.php(328): CController->run('videoPosition')
+#2 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('Position/videoP...')
+#3 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#5 {main} REQUEST_URI=/Position/videoPosition
+2015/10/20 10:00:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in E:\WWW\www\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2015/10/20 10:00:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in E:\WWW\www\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2015/10/20 10:19:16 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hm_adms_s.site_20151020' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `site_20151020`.
+2015/10/20 10:19:16 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "SiteStat" 对应的 table "{{site_20151020}}".' in E:\WWW\www\framework\db\ar\CActiveRecord.php:2237
+Stack trace:
+#0 E:\WWW\www\hiad-interface\protected\models\SiteStat.php(60): CActiveRecordMetaData->__construct(Object(SiteStat))
+#1 E:\WWW\www\hiad-interface\protected\models\SiteStatistics.php(226): SiteStat::model('20151020')
+#2 E:\WWW\www\hiad-interface\protected\controllers\DataServiceController.php(79): SiteStatistics->addClickStatLog(Array)
+#3 E:\WWW\www\framework\web\actions\CInlineAction.php(50): DataServiceController->actionStat()
+#4 E:\WWW\www\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#5 E:\WWW\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#6 E:\WWW\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\WWW\www\framework\web\CWebApplication.php(328): CController->run('stat')
+#8 E:\WWW\www\framework\web\CWebApplication.php(121): CWebApplication->runController('dataService/sta...')
+#9 E:\WWW\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#10 E:\WWW\www\hiad-interface\index.php(10): CApplication->run()
+#11 {main} REQUEST_URI=/dataService/stat?p=dHlwZT1zaXRlJnNpZD0xOCZ0aW1lPTE0NDUzMDc0NjQmaHJlZj1odHRwOi8vd3d3LmJhaWQuY29t
+2016/06/13 14:19:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection 无法开启数据库连线: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in F:\phpStudy\WWW\framework\db\CDbConnection.php:348
+Stack trace:
+#0 F:\phpStudy\WWW\framework\db\CDbConnection.php(297): CDbConnection->open()
+#1 F:\phpStudy\WWW\framework\db\CDbConnection.php(275): CDbConnection->setActive(true)
+#2 F:\phpStudy\WWW\framework\base\CModule.php(372): CDbConnection->init()
+#3 F:\phpStudy\WWW\framework\base\CApplication.php(426): CModule->getComponent('db')
+#4 F:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(607): CApplication->getDb()
+#5 F:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(2236): CActiveRecord->getDbConnection()
+#6 F:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(371): CActiveRecordMetaData->__construct(Object(Position))
+#7 F:\phpStudy\WWW\hiad\hiad-interface\protected\models\Position.php(6): CActiveRecord::model('Position')
+#8 F:\phpStudy\WWW\hiad\hiad-interface\protected\controllers\HimiController.php(24): Position::model()
+#9 F:\phpStudy\WWW\framework\web\actions\CInlineAction.php(50): HimiController->actionIndex()
+#10 F:\phpStudy\WWW\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#11 F:\phpStudy\WWW\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#12 F:\phpStudy\WWW\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 F:\phpStudy\WWW\framework\web\CWebApplication.php(328): CController->run('')
+#14 F:\phpStudy\WWW\framework\web\CWebApplication.php(121): CWebApplication->runController('Himi')
+#15 F:\phpStudy\WWW\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#16 F:\phpStudy\WWW\hiad\hiad-interface\index.php(10): CApplication->run()
+#17 {main} REQUEST_URI=/hiad/hiad-interface/Himi?Pid=110&referer=null&sWidth=1280&sHeight=1024&isFlash=true
+2016/06/13 14:19:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection 无法开启数据库连线: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in F:\phpStudy\WWW\framework\db\CDbConnection.php:348
+Stack trace:
+#0 F:\phpStudy\WWW\framework\db\CDbConnection.php(297): CDbConnection->open()
+#1 F:\phpStudy\WWW\framework\db\CDbConnection.php(275): CDbConnection->setActive(true)
+#2 F:\phpStudy\WWW\framework\base\CModule.php(372): CDbConnection->init()
+#3 F:\phpStudy\WWW\framework\base\CModule.php(86): CModule->getComponent('db_ip')
+#4 F:\phpStudy\WWW\hiad\hiad-interface\protected\models\AreaIp.php(8): CModule->__get('db_ip')
+#5 F:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(370): AreaIp->__construct(NULL)
+#6 F:\phpStudy\WWW\hiad\hiad-interface\protected\models\AreaIp.php(22): CActiveRecord::model('AreaIp')
+#7 F:\phpStudy\WWW\hiad\hiad-interface\protected\models\Ad.php(87): AreaIp::model()
+#8 F:\phpStudy\WWW\hiad\hiad-interface\protected\models\Ad.php(408): Ad->filterSQLData(Array, Array)
+#9 F:\phpStudy\WWW\hiad\hiad-interface\protected\controllers\HimiController.php(81): Ad->getAdInfo_sql('110', Array)
+#10 F:\phpStudy\WWW\framework\web\actions\CInlineAction.php(50): HimiController->actionIndex()
+#11 F:\phpStudy\WWW\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#12 F:\phpStudy\WWW\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#13 F:\phpStudy\WWW\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 F:\phpStudy\WWW\framework\web\CWebApplication.php(328): CController->run('')
+#15 F:\phpStudy\WWW\framework\web\CWebApplication.php(121): CWebApplication->runController('Himi')
+#16 F:\phpStudy\WWW\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#17 F:\phpStudy\WWW\hiad\hiad-interface\index.php(10): CApplication->run()
+#18 {main} REQUEST_URI=/hiad/hiad-interface/Himi?Pid=110&referer=null&sWidth=1280&sHeight=1024&isFlash=true
+2016/06/13 14:20:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection 无法开启数据库连线: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in F:\phpStudy\WWW\framework\db\CDbConnection.php:348
+Stack trace:
+#0 F:\phpStudy\WWW\framework\db\CDbConnection.php(297): CDbConnection->open()
+#1 F:\phpStudy\WWW\framework\db\CDbConnection.php(275): CDbConnection->setActive(true)
+#2 F:\phpStudy\WWW\framework\base\CModule.php(372): CDbConnection->init()
+#3 F:\phpStudy\WWW\framework\base\CModule.php(86): CModule->getComponent('db_ip')
+#4 F:\phpStudy\WWW\hiad\hiad-interface\protected\models\AreaIp.php(8): CModule->__get('db_ip')
+#5 F:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(370): AreaIp->__construct(NULL)
+#6 F:\phpStudy\WWW\hiad\hiad-interface\protected\models\AreaIp.php(22): CActiveRecord::model('AreaIp')
+#7 F:\phpStudy\WWW\hiad\hiad-interface\protected\models\Ad.php(87): AreaIp::model()
+#8 F:\phpStudy\WWW\hiad\hiad-interface\protected\models\Ad.php(408): Ad->filterSQLData(Array, Array)
+#9 F:\phpStudy\WWW\hiad\hiad-interface\protected\controllers\HimiController.php(81): Ad->getAdInfo_sql('110', Array)
+#10 F:\phpStudy\WWW\framework\web\actions\CInlineAction.php(50): HimiController->actionIndex()
+#11 F:\phpStudy\WWW\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#12 F:\phpStudy\WWW\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#13 F:\phpStudy\WWW\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 F:\phpStudy\WWW\framework\web\CWebApplication.php(328): CController->run('')
+#15 F:\phpStudy\WWW\framework\web\CWebApplication.php(121): CWebApplication->runController('Himi')
+#16 F:\phpStudy\WWW\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#17 F:\phpStudy\WWW\hiad\hiad-interface\index.php(10): CApplication->run()
+#18 {main} REQUEST_URI=/hiad/hiad-interface/Himi?Pid=110&referer=null&sWidth=1280&sHeight=1024&isFlash=true
+2016/06/13 14:20:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection 无法开启数据库连线: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in F:\phpStudy\WWW\framework\db\CDbConnection.php:348
+Stack trace:
+#0 F:\phpStudy\WWW\framework\db\CDbConnection.php(297): CDbConnection->open()
+#1 F:\phpStudy\WWW\framework\db\CDbConnection.php(275): CDbConnection->setActive(true)
+#2 F:\phpStudy\WWW\framework\base\CModule.php(372): CDbConnection->init()
+#3 F:\phpStudy\WWW\framework\base\CModule.php(86): CModule->getComponent('db_ip')
+#4 F:\phpStudy\WWW\hiad\hiad-interface\protected\models\AreaIp.php(8): CModule->__get('db_ip')
+#5 F:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(370): AreaIp->__construct(NULL)
+#6 F:\phpStudy\WWW\hiad\hiad-interface\protected\models\AreaIp.php(22): CActiveRecord::model('AreaIp')
+#7 F:\phpStudy\WWW\hiad\hiad-interface\protected\models\Ad.php(87): AreaIp::model()
+#8 F:\phpStudy\WWW\hiad\hiad-interface\protected\models\Ad.php(408): Ad->filterSQLData(Array, Array)
+#9 F:\phpStudy\WWW\hiad\hiad-interface\protected\controllers\HimiController.php(81): Ad->getAdInfo_sql('110', Array)
+#10 F:\phpStudy\WWW\framework\web\actions\CInlineAction.php(50): HimiController->actionIndex()
+#11 F:\phpStudy\WWW\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#12 F:\phpStudy\WWW\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#13 F:\phpStudy\WWW\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 F:\phpStudy\WWW\framework\web\CWebApplication.php(328): CController->run('')
+#15 F:\phpStudy\WWW\framework\web\CWebApplication.php(121): CWebApplication->runController('Himi')
+#16 F:\phpStudy\WWW\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#17 F:\phpStudy\WWW\hiad\hiad-interface\index.php(10): CApplication->run()
+#18 {main} REQUEST_URI=/hiad/hiad-interface/Himi?Pid=110&referer=null&sWidth=1280&sHeight=1024&isFlash=true
+2016/06/13 14:21:10 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection 无法开启数据库连线: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in F:\phpStudy\WWW\framework\db\CDbConnection.php:348
+Stack trace:
+#0 F:\phpStudy\WWW\framework\db\CDbConnection.php(297): CDbConnection->open()
+#1 F:\phpStudy\WWW\framework\db\CDbConnection.php(275): CDbConnection->setActive(true)
+#2 F:\phpStudy\WWW\framework\base\CModule.php(372): CDbConnection->init()
+#3 F:\phpStudy\WWW\framework\base\CModule.php(86): CModule->getComponent('db_ip')
+#4 F:\phpStudy\WWW\hiad\hiad-interface\protected\models\AreaIp.php(8): CModule->__get('db_ip')
+#5 F:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(370): AreaIp->__construct(NULL)
+#6 F:\phpStudy\WWW\hiad\hiad-interface\protected\models\AreaIp.php(22): CActiveRecord::model('AreaIp')
+#7 F:\phpStudy\WWW\hiad\hiad-interface\protected\models\Ad.php(87): AreaIp::model()
+#8 F:\phpStudy\WWW\hiad\hiad-interface\protected\models\Ad.php(408): Ad->filterSQLData(Array, Array)
+#9 F:\phpStudy\WWW\hiad\hiad-interface\protected\controllers\HimiController.php(81): Ad->getAdInfo_sql('110', Array)
+#10 F:\phpStudy\WWW\framework\web\actions\CInlineAction.php(50): HimiController->actionIndex()
+#11 F:\phpStudy\WWW\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#12 F:\phpStudy\WWW\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#13 F:\phpStudy\WWW\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 F:\phpStudy\WWW\framework\web\CWebApplication.php(328): CController->run('')
+#15 F:\phpStudy\WWW\framework\web\CWebApplication.php(121): CWebApplication->runController('Himi')
+#16 F:\phpStudy\WWW\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#17 F:\phpStudy\WWW\hiad\hiad-interface\index.php(10): CApplication->run()
+#18 {main} REQUEST_URI=/hiad/hiad-interface/Himi?Pid=110&referer=null&sWidth=1280&sHeight=1024&isFlash=true
+2016/06/13 14:21:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection 无法开启数据库连线: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in F:\phpStudy\WWW\framework\db\CDbConnection.php:348
+Stack trace:
+#0 F:\phpStudy\WWW\framework\db\CDbConnection.php(297): CDbConnection->open()
+#1 F:\phpStudy\WWW\framework\db\CDbConnection.php(275): CDbConnection->setActive(true)
+#2 F:\phpStudy\WWW\framework\base\CModule.php(372): CDbConnection->init()
+#3 F:\phpStudy\WWW\framework\base\CModule.php(86): CModule->getComponent('db_ip')
+#4 F:\phpStudy\WWW\hiad\hiad-interface\protected\models\AreaIp.php(8): CModule->__get('db_ip')
+#5 F:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(370): AreaIp->__construct(NULL)
+#6 F:\phpStudy\WWW\hiad\hiad-interface\protected\models\AreaIp.php(22): CActiveRecord::model('AreaIp')
+#7 F:\phpStudy\WWW\hiad\hiad-interface\protected\models\Ad.php(87): AreaIp::model()
+#8 F:\phpStudy\WWW\hiad\hiad-interface\protected\models\Ad.php(408): Ad->filterSQLData(Array, Array)
+#9 F:\phpStudy\WWW\hiad\hiad-interface\protected\controllers\HimiController.php(81): Ad->getAdInfo_sql('110', Array)
+#10 F:\phpStudy\WWW\framework\web\actions\CInlineAction.php(50): HimiController->actionIndex()
+#11 F:\phpStudy\WWW\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#12 F:\phpStudy\WWW\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#13 F:\phpStudy\WWW\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 F:\phpStudy\WWW\framework\web\CWebApplication.php(328): CController->run('')
+#15 F:\phpStudy\WWW\framework\web\CWebApplication.php(121): CWebApplication->runController('Himi')
+#16 F:\phpStudy\WWW\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#17 F:\phpStudy\WWW\hiad\hiad-interface\index.php(10): CApplication->run()
+#18 {main} REQUEST_URI=/hiad/hiad-interface/Himi?Pid=110&referer=null&sWidth=1280&sHeight=1024&isFlash=true
+2016/06/13 14:22:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection 无法开启数据库连线: SQLSTATE[42000] [1049] Unknown database 'hm_adms_public'' in F:\phpStudy\WWW\framework\db\CDbConnection.php:348
+Stack trace:
+#0 F:\phpStudy\WWW\framework\db\CDbConnection.php(297): CDbConnection->open()
+#1 F:\phpStudy\WWW\framework\db\CDbConnection.php(275): CDbConnection->setActive(true)
+#2 F:\phpStudy\WWW\framework\base\CModule.php(372): CDbConnection->init()
+#3 F:\phpStudy\WWW\framework\base\CModule.php(86): CModule->getComponent('db_ip')
+#4 F:\phpStudy\WWW\hiad\hiad-interface\protected\models\AreaIp.php(8): CModule->__get('db_ip')
+#5 F:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(370): AreaIp->__construct(NULL)
+#6 F:\phpStudy\WWW\hiad\hiad-interface\protected\models\AreaIp.php(22): CActiveRecord::model('AreaIp')
+#7 F:\phpStudy\WWW\hiad\hiad-interface\protected\models\Ad.php(87): AreaIp::model()
+#8 F:\phpStudy\WWW\hiad\hiad-interface\protected\models\Ad.php(408): Ad->filterSQLData(Array, Array)
+#9 F:\phpStudy\WWW\hiad\hiad-interface\protected\controllers\HimiController.php(81): Ad->getAdInfo_sql('110', Array)
+#10 F:\phpStudy\WWW\framework\web\actions\CInlineAction.php(50): HimiController->actionIndex()
+#11 F:\phpStudy\WWW\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#12 F:\phpStudy\WWW\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#13 F:\phpStudy\WWW\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 F:\phpStudy\WWW\framework\web\CWebApplication.php(328): CController->run('')
+#15 F:\phpStudy\WWW\framework\web\CWebApplication.php(121): CWebApplication->runController('Himi')
+#16 F:\phpStudy\WWW\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#17 F:\phpStudy\WWW\hiad\hiad-interface\index.php(10): CApplication->run()
+#18 {main} REQUEST_URI=/hiad/hiad-interface/Himi?Pid=110&referer=null&sWidth=1280&sHeight=1024&isFlash=true
+2016/06/13 14:27:19 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hm_adms_public.dc_area_ip' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `dc_area_ip`.
+2016/06/13 14:27:19 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "AreaIp" 对应的 table "{{area_ip}}".' in F:\phpStudy\WWW\framework\db\ar\CActiveRecord.php:2237
+Stack trace:
+#0 F:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(371): CActiveRecordMetaData->__construct(Object(AreaIp))
+#1 F:\phpStudy\WWW\hiad\hiad-interface\protected\models\AreaIp.php(22): CActiveRecord::model('AreaIp')
+#2 F:\phpStudy\WWW\hiad\hiad-interface\protected\models\Ad.php(87): AreaIp::model()
+#3 F:\phpStudy\WWW\hiad\hiad-interface\protected\models\Ad.php(408): Ad->filterSQLData(Array, Array)
+#4 F:\phpStudy\WWW\hiad\hiad-interface\protected\controllers\HimiController.php(81): Ad->getAdInfo_sql('110', Array)
+#5 F:\phpStudy\WWW\framework\web\actions\CInlineAction.php(50): HimiController->actionIndex()
+#6 F:\phpStudy\WWW\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#7 F:\phpStudy\WWW\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#8 F:\phpStudy\WWW\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 F:\phpStudy\WWW\framework\web\CWebApplication.php(328): CController->run('')
+#10 F:\phpStudy\WWW\framework\web\CWebApplication.php(121): CWebApplication->runController('Himi')
+#11 F:\phpStudy\WWW\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#12 F:\phpStudy\WWW\hiad\hiad-interface\index.php(10): CApplication->run()
+#13 {main} REQUEST_URI=/hiad/hiad-interface/Himi?Pid=110&referer=null&sWidth=1280&sHeight=1024&isFlash=true
+2016/06/13 14:34:52 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hm_adms_public.dc_area_ip' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `dc_area_ip`.
+2016/06/13 14:34:52 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "AreaIp" 对应的 table "{{area_ip}}".' in F:\phpStudy\WWW\framework\db\ar\CActiveRecord.php:2237
+Stack trace:
+#0 F:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(371): CActiveRecordMetaData->__construct(Object(AreaIp))
+#1 F:\phpStudy\WWW\hiad\hiad-interface\protected\models\AreaIp.php(22): CActiveRecord::model('AreaIp')
+#2 F:\phpStudy\WWW\hiad\hiad-interface\protected\models\Ad.php(87): AreaIp::model()
+#3 F:\phpStudy\WWW\hiad\hiad-interface\protected\models\Ad.php(408): Ad->filterSQLData(Array, Array)
+#4 F:\phpStudy\WWW\hiad\hiad-interface\protected\controllers\HimiController.php(81): Ad->getAdInfo_sql('110', Array)
+#5 F:\phpStudy\WWW\framework\web\actions\CInlineAction.php(50): HimiController->actionIndex()
+#6 F:\phpStudy\WWW\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#7 F:\phpStudy\WWW\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#8 F:\phpStudy\WWW\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 F:\phpStudy\WWW\framework\web\CWebApplication.php(328): CController->run('')
+#10 F:\phpStudy\WWW\framework\web\CWebApplication.php(121): CWebApplication->runController('Himi')
+#11 F:\phpStudy\WWW\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#12 F:\phpStudy\WWW\hiad\hiad-interface\index.php(10): CApplication->run()
+#13 {main} REQUEST_URI=/hiad/hiad-interface/Himi?Pid=110&referer=null&sWidth=1280&sHeight=1024&isFlash=true
+2016/06/13 15:09:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection 无法开启数据库连线: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in F:\phpStudy\WWW\framework\db\CDbConnection.php:348
+Stack trace:
+#0 F:\phpStudy\WWW\framework\db\CDbConnection.php(297): CDbConnection->open()
+#1 F:\phpStudy\WWW\framework\db\CDbConnection.php(275): CDbConnection->setActive(true)
+#2 F:\phpStudy\WWW\framework\base\CModule.php(372): CDbConnection->init()
+#3 F:\phpStudy\WWW\framework\base\CApplication.php(426): CModule->getComponent('db')
+#4 F:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(607): CApplication->getDb()
+#5 F:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(2236): CActiveRecord->getDbConnection()
+#6 F:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(371): CActiveRecordMetaData->__construct(Object(Position))
+#7 F:\phpStudy\WWW\hiad\hiad-interface\protected\models\Position.php(6): CActiveRecord::model('Position')
+#8 F:\phpStudy\WWW\hiad\hiad-interface\protected\controllers\HimiController.php(24): Position::model()
+#9 F:\phpStudy\WWW\framework\web\actions\CInlineAction.php(50): HimiController->actionIndex()
+#10 F:\phpStudy\WWW\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#11 F:\phpStudy\WWW\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#12 F:\phpStudy\WWW\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 F:\phpStudy\WWW\framework\web\CWebApplication.php(328): CController->run('')
+#14 F:\phpStudy\WWW\framework\web\CWebApplication.php(121): CWebApplication->runController('Himi')
+#15 F:\phpStudy\WWW\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#16 F:\phpStudy\WWW\hiad\hiad-interface\index.php(10): CApplication->run()
+#17 {main} REQUEST_URI=/hiad/hiad-interface/Himi?Pid=110&referer=null&sWidth=1280&sHeight=1024&isFlash=true
+2016/07/14 15:12:58 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hm_adms_thrid.thrid_20160714' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `thrid_20160714`.
+2016/07/14 15:12:58 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "ThridStat" 对应的 table "{{thrid_20160714}}".' in F:\phpStudy\WWW\framework\db\ar\CActiveRecord.php:2237
+Stack trace:
+#0 F:\phpStudy\WWW\hiad\hiad-interface\protected\models\ThridStat.php(24): CActiveRecordMetaData->__construct(Object(ThridStat))
+#1 F:\phpStudy\WWW\hiad\hiad-interface\protected\models\ThridStat.php(47): ThridStat::model('20160714')
+#2 F:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(62): ThridStat->getMetaData()
+#3 F:\phpStudy\WWW\hiad\hiad-interface\protected\models\ThridStat.php(13): CActiveRecord->__construct()
+#4 F:\phpStudy\WWW\hiad\hiad-interface\protected\controllers\ThridAdController.php(26): ThridStat->__construct('20160714')
+#5 F:\phpStudy\WWW\framework\web\actions\CInlineAction.php(50): ThridAdController->actionIndex()
+#6 F:\phpStudy\WWW\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#7 F:\phpStudy\WWW\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#8 F:\phpStudy\WWW\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 F:\phpStudy\WWW\framework\web\CWebApplication.php(328): CController->run('')
+#10 F:\phpStudy\WWW\framework\web\CWebApplication.php(121): CWebApplication->runController('thridAd')
+#11 F:\phpStudy\WWW\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#12 F:\phpStudy\WWW\hiad\hiad-interface\index.php(10): CApplication->run()
+#13 {main} REQUEST_URI=/hiad/hiad-interface/thridAd?pid=114
+2016/07/26 10:59:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "backend/index"。' in D:\WWW\git\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\WWW\git\framework\web\CWebApplication.php(121): CWebApplication->runController('backend/index')
+#1 D:\WWW\git\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\WWW\git\HiAD\hiad-interface\index.php(10): CApplication->run()
+#3 {main} REQUEST_URI=/git/HiAD/hiad-interface/backend/index
+2016/07/26 11:02:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "index" 动作.' in D:\WWW\git\framework\web\CController.php:477
+Stack trace:
+#0 D:\WWW\git\framework\web\CController.php(262): CController->missingAction('')
+#1 D:\WWW\git\framework\web\CWebApplication.php(328): CController->run('')
+#2 D:\WWW\git\framework\web\CWebApplication.php(121): CWebApplication->runController('AppAd')
+#3 D:\WWW\git\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\WWW\git\HiAD\hiad-interface\index.php(10): CApplication->run()
+#5 {main} REQUEST_URI=/git/HiAD/hiad-interface/AppAd
+2016/07/29 15:45:42 [error] [php] Undefined index: method (D:\WWW\git\HiAD\hiad-interface\protected\controllers\DataServiceController.php:27)
+Stack trace:
+#0 D:\WWW\git\framework\web\CController.php(278): DataServiceController->runAction()
+#1 D:\WWW\git\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#2 D:\WWW\git\framework\web\CWebApplication.php(328): DataServiceController->run()
+#3 D:\WWW\git\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#4 D:\WWW\git\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#5 D:\WWW\git\HiAD\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/git/HiAD/hiad-interface/DataService/Index?method=getAppAd
+2016/07/29 15:46:10 [error] [php] Undefined variable: interfaces (D:\WWW\git\HiAD\hiad-interface\protected\controllers\DataServiceController.php:27)
+Stack trace:
+#0 D:\WWW\git\framework\web\CController.php(278): DataServiceController->runAction()
+#1 D:\WWW\git\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#2 D:\WWW\git\framework\web\CWebApplication.php(328): DataServiceController->run()
+#3 D:\WWW\git\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#4 D:\WWW\git\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#5 D:\WWW\git\HiAD\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/git/HiAD/hiad-interface/DataService/Index?method=getAppAd
+2016/07/29 15:46:11 [error] [php] Undefined variable: interfaces (D:\WWW\git\HiAD\hiad-interface\protected\controllers\DataServiceController.php:27)
+Stack trace:
+#0 D:\WWW\git\framework\web\CController.php(278): DataServiceController->runAction()
+#1 D:\WWW\git\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#2 D:\WWW\git\framework\web\CWebApplication.php(328): DataServiceController->run()
+#3 D:\WWW\git\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#4 D:\WWW\git\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#5 D:\WWW\git\HiAD\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/git/HiAD/hiad-interface/DataService/Index?method=getAppAd
+2016/07/29 15:58:24 [error] [php] Undefined index: method (D:\WWW\git\HiAD\hiad-interface\protected\controllers\DataServiceController.php:16)
+Stack trace:
+#0 D:\WWW\git\framework\web\CController.php(278): DataServiceController->runAction()
+#1 D:\WWW\git\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#2 D:\WWW\git\framework\web\CWebApplication.php(328): DataServiceController->run()
+#3 D:\WWW\git\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#4 D:\WWW\git\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#5 D:\WWW\git\HiAD\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/git/HiAD/hiad-interface/DataService/Index
+2016/08/03 10:46:23 [error] [php] Undefined index: method (D:\WWW\git\HiAD\hiad-interface\protected\controllers\DataServiceController.php:15)
+Stack trace:
+#0 D:\WWW\git\framework\web\CController.php(278): DataServiceController->runAction()
+#1 D:\WWW\git\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#2 D:\WWW\git\framework\web\CWebApplication.php(328): DataServiceController->run()
+#3 D:\WWW\git\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#4 D:\WWW\git\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#5 D:\WWW\git\HiAD\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/git/HiAD/hiad-interface/DataService/Index?method=getPlayerAdAPP&parameter={%22tenant%22:%22test%22,%22cushion%22:1,%22catalogid%22:10,%22time%22:1111111111}
+2016/08/03 11:28:24 [error] [php] Undefined index: method (D:\WWW\git\HiAD\hiad-interface\protected\controllers\DataServiceController.php:28)
+Stack trace:
+#0 D:\WWW\git\framework\web\CController.php(278): DataServiceController->runAction()
+#1 D:\WWW\git\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#2 D:\WWW\git\framework\web\CWebApplication.php(328): DataServiceController->run()
+#3 D:\WWW\git\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#4 D:\WWW\git\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#5 D:\WWW\git\HiAD\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/git/HiAD/hiad-interface/DataService/Index
+2016/08/12 14:27:17 [error] [php] Undefined variable: id (D:\WWW\git\HiAD\hiad-interface\protected\controllers\PlayerAdController.php:25)
+Stack trace:
+#0 D:\WWW\git\framework\web\CController.php(300): CInlineAction->runWithParams()
+#1 D:\WWW\git\framework\web\CController.php(278): DataServiceController->runAction()
+#2 D:\WWW\git\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#3 D:\WWW\git\framework\web\CWebApplication.php(328): DataServiceController->run()
+#4 D:\WWW\git\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#5 D:\WWW\git\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#6 D:\WWW\git\HiAD\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/git/HiAD/hiad-interface/DataService/Index
+2016/08/12 14:30:18 [error] [exception.CException] exception 'CException' with message '属性 "VpCatalog._attributes" 未被定义.' in D:\WWW\git\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\WWW\git\framework\db\ar\CActiveRecord.php(128): CComponent->__get('_attributes')
+#1 D:\WWW\git\HiAD\hiad-interface\protected\controllers\PlayerAdController.php(26): CActiveRecord->__get('_attributes')
+#2 D:\WWW\git\HiAD\hiad-interface\protected\controllers\DataServiceController.php(27): PlayerAdController->adInfo()
+#3 D:\WWW\git\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#4 D:\WWW\git\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#5 D:\WWW\git\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#6 D:\WWW\git\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\WWW\git\framework\web\CWebApplication.php(328): CController->run('Index')
+#8 D:\WWW\git\framework\web\CWebApplication.php(121): CWebApplication->runController('DataService/Ind...')
+#9 D:\WWW\git\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#10 D:\WWW\git\HiAD\hiad-interface\index.php(10): CApplication->run()
+#11 {main} REQUEST_URI=/git/HiAD/hiad-interface/DataService/Index
+2016/08/12 14:33:15 [error] [php] Trying to get property of non-object (D:\WWW\git\HiAD\hiad-interface\protected\controllers\PlayerAdController.php:27)
+Stack trace:
+#0 D:\WWW\git\framework\web\CController.php(300): CInlineAction->runWithParams()
+#1 D:\WWW\git\framework\web\CController.php(278): DataServiceController->runAction()
+#2 D:\WWW\git\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#3 D:\WWW\git\framework\web\CWebApplication.php(328): DataServiceController->run()
+#4 D:\WWW\git\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#5 D:\WWW\git\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#6 D:\WWW\git\HiAD\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/git/HiAD/hiad-interface/DataService/Index
+2016/08/12 15:55:10 [error] [exception.CException] exception 'CException' with message '属性 "Ad._attributes" 未被定义.' in D:\WWW\git\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\WWW\git\framework\db\ar\CActiveRecord.php(128): CComponent->__get('_attributes')
+#1 D:\WWW\git\framework\base\CModel.php(599): CActiveRecord->__get('_attributes')
+#2 D:\WWW\git\HiAD\hiad-interface\protected\controllers\PlayerAdController.php(36): CModel->offsetGet('_attributes')
+#3 D:\WWW\git\HiAD\hiad-interface\protected\controllers\DataServiceController.php(27): PlayerAdController->adInfo()
+#4 D:\WWW\git\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#5 D:\WWW\git\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#6 D:\WWW\git\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#7 D:\WWW\git\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\WWW\git\framework\web\CWebApplication.php(328): CController->run('Index')
+#9 D:\WWW\git\framework\web\CWebApplication.php(121): CWebApplication->runController('DataService/Ind...')
+#10 D:\WWW\git\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#11 D:\WWW\git\HiAD\hiad-interface\index.php(10): CApplication->run()
+#12 {main} REQUEST_URI=/git/HiAD/hiad-interface/DataService/Index
+2016/08/12 15:55:26 [error] [exception.CException] exception 'CException' with message '属性 "Ad._attributes" 未被定义.' in D:\WWW\git\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\WWW\git\framework\db\ar\CActiveRecord.php(128): CComponent->__get('_attributes')
+#1 D:\WWW\git\HiAD\hiad-interface\protected\controllers\PlayerAdController.php(36): CActiveRecord->__get('_attributes')
+#2 D:\WWW\git\HiAD\hiad-interface\protected\controllers\DataServiceController.php(27): PlayerAdController->adInfo()
+#3 D:\WWW\git\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#4 D:\WWW\git\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#5 D:\WWW\git\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#6 D:\WWW\git\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\WWW\git\framework\web\CWebApplication.php(328): CController->run('Index')
+#8 D:\WWW\git\framework\web\CWebApplication.php(121): CWebApplication->runController('DataService/Ind...')
+#9 D:\WWW\git\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#10 D:\WWW\git\HiAD\hiad-interface\index.php(10): CApplication->run()
+#11 {main} REQUEST_URI=/git/HiAD/hiad-interface/DataService/Index
+2016/08/12 15:55:27 [error] [exception.CException] exception 'CException' with message '属性 "Ad._attributes" 未被定义.' in D:\WWW\git\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\WWW\git\framework\db\ar\CActiveRecord.php(128): CComponent->__get('_attributes')
+#1 D:\WWW\git\HiAD\hiad-interface\protected\controllers\PlayerAdController.php(36): CActiveRecord->__get('_attributes')
+#2 D:\WWW\git\HiAD\hiad-interface\protected\controllers\DataServiceController.php(27): PlayerAdController->adInfo()
+#3 D:\WWW\git\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#4 D:\WWW\git\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#5 D:\WWW\git\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#6 D:\WWW\git\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\WWW\git\framework\web\CWebApplication.php(328): CController->run('Index')
+#8 D:\WWW\git\framework\web\CWebApplication.php(121): CWebApplication->runController('DataService/Ind...')
+#9 D:\WWW\git\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#10 D:\WWW\git\HiAD\hiad-interface\index.php(10): CApplication->run()
+#11 {main} REQUEST_URI=/git/HiAD/hiad-interface/DataService/Index
+2016/08/12 16:01:04 [error] [exception.CException] exception 'CException' with message '属性 "Ad._attributes" 未被定义.' in D:\WWW\git\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\WWW\git\framework\db\ar\CActiveRecord.php(128): CComponent->__get('_attributes')
+#1 D:\WWW\git\HiAD\hiad-interface\protected\controllers\PlayerAdController.php(36): CActiveRecord->__get('_attributes')
+#2 D:\WWW\git\HiAD\hiad-interface\protected\controllers\DataServiceController.php(27): PlayerAdController->adInfo()
+#3 D:\WWW\git\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#4 D:\WWW\git\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#5 D:\WWW\git\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#6 D:\WWW\git\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\WWW\git\framework\web\CWebApplication.php(328): CController->run('Index')
+#8 D:\WWW\git\framework\web\CWebApplication.php(121): CWebApplication->runController('DataService/Ind...')
+#9 D:\WWW\git\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#10 D:\WWW\git\HiAD\hiad-interface\index.php(10): CApplication->run()
+#11 {main} REQUEST_URI=/git/HiAD/hiad-interface/DataService/Index
+2016/08/12 16:01:05 [error] [exception.CException] exception 'CException' with message '属性 "Ad._attributes" 未被定义.' in D:\WWW\git\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\WWW\git\framework\db\ar\CActiveRecord.php(128): CComponent->__get('_attributes')
+#1 D:\WWW\git\HiAD\hiad-interface\protected\controllers\PlayerAdController.php(36): CActiveRecord->__get('_attributes')
+#2 D:\WWW\git\HiAD\hiad-interface\protected\controllers\DataServiceController.php(27): PlayerAdController->adInfo()
+#3 D:\WWW\git\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#4 D:\WWW\git\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#5 D:\WWW\git\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#6 D:\WWW\git\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\WWW\git\framework\web\CWebApplication.php(328): CController->run('Index')
+#8 D:\WWW\git\framework\web\CWebApplication.php(121): CWebApplication->runController('DataService/Ind...')
+#9 D:\WWW\git\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#10 D:\WWW\git\HiAD\hiad-interface\index.php(10): CApplication->run()
+#11 {main} REQUEST_URI=/git/HiAD/hiad-interface/DataService/Index
+2016/08/12 16:02:02 [error] [php] Undefined variable: arr (D:\WWW\git\HiAD\hiad-interface\protected\controllers\PlayerAdController.php:38)
+Stack trace:
+#0 D:\WWW\git\framework\web\CController.php(300): CInlineAction->runWithParams()
+#1 D:\WWW\git\framework\web\CController.php(278): DataServiceController->runAction()
+#2 D:\WWW\git\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#3 D:\WWW\git\framework\web\CWebApplication.php(328): DataServiceController->run()
+#4 D:\WWW\git\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#5 D:\WWW\git\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#6 D:\WWW\git\HiAD\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/git/HiAD/hiad-interface/DataService/Index
+2016/08/12 16:02:05 [error] [php] Undefined variable: arr (D:\WWW\git\HiAD\hiad-interface\protected\controllers\PlayerAdController.php:38)
+Stack trace:
+#0 D:\WWW\git\framework\web\CController.php(300): CInlineAction->runWithParams()
+#1 D:\WWW\git\framework\web\CController.php(278): DataServiceController->runAction()
+#2 D:\WWW\git\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#3 D:\WWW\git\framework\web\CWebApplication.php(328): DataServiceController->run()
+#4 D:\WWW\git\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#5 D:\WWW\git\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#6 D:\WWW\git\HiAD\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/git/HiAD/hiad-interface/DataService/Index
+2016/08/12 16:16:01 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jon hm_position B on A.position_id = B.id and b.status = 1 where A.catalog_id=34' at line 1. The SQL statement executed was: select * from hm_vp_catalog A left jon hm_position B on A.position_id = B.id and b.status = 1 where A.catalog_id=34.
+2016/08/12 16:16:01 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jon hm_position B on A.position_id = B.id and b.status = 1 where A.catalog_id=34' at line 1. The SQL statement executed was: select * from hm_vp_catalog A left jon hm_position B on A.position_id = B.id and b.status = 1 where A.catalog_id=34' in D:\WWW\git\framework\db\CDbCommand.php:518
+Stack trace:
+#0 D:\WWW\git\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\WWW\git\HiAD\hiad-interface\protected\controllers\PlayerAdController.php(29): CDbCommand->queryRow()
+#2 D:\WWW\git\HiAD\hiad-interface\protected\controllers\DataServiceController.php(27): PlayerAdController->adInfo()
+#3 D:\WWW\git\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#4 D:\WWW\git\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#5 D:\WWW\git\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#6 D:\WWW\git\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\WWW\git\framework\web\CWebApplication.php(328): CController->run('Index')
+#8 D:\WWW\git\framework\web\CWebApplication.php(121): CWebApplication->runController('DataService/Ind...')
+#9 D:\WWW\git\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#10 D:\WWW\git\HiAD\hiad-interface\index.php(10): CApplication->run()
+#11 {main} REQUEST_URI=/git/HiAD/hiad-interface/DataService/Index
+2016/08/12 16:16:39 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jon hm_position B on A.position_id = B.id and b.status = 1 where A.catalog_id=34' at line 1. The SQL statement executed was: select * from hm_vp_catalog A left jon hm_position B on A.position_id = B.id and b.status = 1 where A.catalog_id=34.
+2016/08/12 16:16:39 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jon hm_position B on A.position_id = B.id and b.status = 1 where A.catalog_id=34' at line 1. The SQL statement executed was: select * from hm_vp_catalog A left jon hm_position B on A.position_id = B.id and b.status = 1 where A.catalog_id=34' in D:\WWW\git\framework\db\CDbCommand.php:518
+Stack trace:
+#0 D:\WWW\git\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\WWW\git\HiAD\hiad-interface\protected\controllers\PlayerAdController.php(29): CDbCommand->queryRow()
+#2 D:\WWW\git\HiAD\hiad-interface\protected\controllers\DataServiceController.php(27): PlayerAdController->adInfo()
+#3 D:\WWW\git\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#4 D:\WWW\git\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#5 D:\WWW\git\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#6 D:\WWW\git\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\WWW\git\framework\web\CWebApplication.php(328): CController->run('Index')
+#8 D:\WWW\git\framework\web\CWebApplication.php(121): CWebApplication->runController('DataService/Ind...')
+#9 D:\WWW\git\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#10 D:\WWW\git\HiAD\hiad-interface\index.php(10): CApplication->run()
+#11 {main} REQUEST_URI=/git/HiAD/hiad-interface/DataService/Index
+2016/08/12 16:16:40 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jon hm_position B on A.position_id = B.id and b.status = 1 where A.catalog_id=34' at line 1. The SQL statement executed was: select * from hm_vp_catalog A left jon hm_position B on A.position_id = B.id and b.status = 1 where A.catalog_id=34.
+2016/08/12 16:16:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jon hm_position B on A.position_id = B.id and b.status = 1 where A.catalog_id=34' at line 1. The SQL statement executed was: select * from hm_vp_catalog A left jon hm_position B on A.position_id = B.id and b.status = 1 where A.catalog_id=34' in D:\WWW\git\framework\db\CDbCommand.php:518
+Stack trace:
+#0 D:\WWW\git\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\WWW\git\HiAD\hiad-interface\protected\controllers\PlayerAdController.php(29): CDbCommand->queryRow()
+#2 D:\WWW\git\HiAD\hiad-interface\protected\controllers\DataServiceController.php(27): PlayerAdController->adInfo()
+#3 D:\WWW\git\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#4 D:\WWW\git\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#5 D:\WWW\git\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#6 D:\WWW\git\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\WWW\git\framework\web\CWebApplication.php(328): CController->run('Index')
+#8 D:\WWW\git\framework\web\CWebApplication.php(121): CWebApplication->runController('DataService/Ind...')
+#9 D:\WWW\git\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#10 D:\WWW\git\HiAD\hiad-interface\index.php(10): CApplication->run()
+#11 {main} REQUEST_URI=/git/HiAD/hiad-interface/DataService/Index
+2016/08/12 16:57:53 [error] [php] Undefined variable: table (D:\WWW\git\HiAD\hiad-interface\protected\models\Ad.php:641)
+Stack trace:
+#0 D:\WWW\git\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#1 D:\WWW\git\framework\web\CController.php(300): CInlineAction->runWithParams()
+#2 D:\WWW\git\framework\web\CController.php(278): DataServiceController->runAction()
+#3 D:\WWW\git\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#4 D:\WWW\git\framework\web\CWebApplication.php(328): DataServiceController->run()
+#5 D:\WWW\git\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#6 D:\WWW\git\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#7 D:\WWW\git\HiAD\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/git/HiAD/hiad-interface/DataService/Index
+2016/08/12 17:02:15 [error] [php] Trying to get property of non-object (D:\WWW\git\HiAD\hiad-interface\protected\models\Ad.php:642)
+Stack trace:
+#0 D:\WWW\git\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#1 D:\WWW\git\framework\web\CController.php(300): CInlineAction->runWithParams()
+#2 D:\WWW\git\framework\web\CController.php(278): DataServiceController->runAction()
+#3 D:\WWW\git\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#4 D:\WWW\git\framework\web\CWebApplication.php(328): DataServiceController->run()
+#5 D:\WWW\git\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#6 D:\WWW\git\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#7 D:\WWW\git\HiAD\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/git/HiAD/hiad-interface/DataService/Index
+2016/08/12 17:02:21 [error] [php] Trying to get property of non-object (D:\WWW\git\HiAD\hiad-interface\protected\models\Ad.php:642)
+Stack trace:
+#0 D:\WWW\git\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#1 D:\WWW\git\framework\web\CController.php(300): CInlineAction->runWithParams()
+#2 D:\WWW\git\framework\web\CController.php(278): DataServiceController->runAction()
+#3 D:\WWW\git\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#4 D:\WWW\git\framework\web\CWebApplication.php(328): DataServiceController->run()
+#5 D:\WWW\git\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#6 D:\WWW\git\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#7 D:\WWW\git\HiAD\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/git/HiAD/hiad-interface/DataService/Index
+2016/08/12 18:15:19 [error] [php] unserialize() [<a href='function.unserialize'>function.unserialize</a>]: Error at offset 0 of 1 bytes (D:\WWW\git\HiAD\hiad-interface\protected\controllers\PlayerAdController.php:47)
+Stack trace:
+#0 D:\WWW\git\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#1 D:\WWW\git\framework\web\CController.php(300): CInlineAction->runWithParams()
+#2 D:\WWW\git\framework\web\CController.php(278): DataServiceController->runAction()
+#3 D:\WWW\git\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#4 D:\WWW\git\framework\web\CWebApplication.php(328): DataServiceController->run()
+#5 D:\WWW\git\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#6 D:\WWW\git\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#7 D:\WWW\git\HiAD\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/git/HiAD/hiad-interface/DataService/Index
+2016/08/12 18:15:37 [error] [php] unserialize() [<a href='function.unserialize'>function.unserialize</a>]: Error at offset 0 of 1 bytes (D:\WWW\git\HiAD\hiad-interface\protected\controllers\PlayerAdController.php:48)
+Stack trace:
+#0 D:\WWW\git\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#1 D:\WWW\git\framework\web\CController.php(300): CInlineAction->runWithParams()
+#2 D:\WWW\git\framework\web\CController.php(278): DataServiceController->runAction()
+#3 D:\WWW\git\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#4 D:\WWW\git\framework\web\CWebApplication.php(328): DataServiceController->run()
+#5 D:\WWW\git\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#6 D:\WWW\git\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#7 D:\WWW\git\HiAD\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/git/HiAD/hiad-interface/DataService/Index
+2016/08/12 18:22:22 [error] [php] Undefined index: id (D:\WWW\git\HiAD\hiad-interface\protected\controllers\PlayerAdController.php:50)
+Stack trace:
+#0 D:\WWW\git\framework\web\CController.php(300): CInlineAction->runWithParams()
+#1 D:\WWW\git\framework\web\CController.php(278): DataServiceController->runAction()
+#2 D:\WWW\git\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#3 D:\WWW\git\framework\web\CWebApplication.php(328): DataServiceController->run()
+#4 D:\WWW\git\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#5 D:\WWW\git\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#6 D:\WWW\git\HiAD\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/git/HiAD/hiad-interface/DataService/Index
+2016/08/12 18:37:25 [error] [php] Undefined offset: 7 (D:\WWW\git\HiAD\hiad-interface\protected\controllers\PlayerAdController.php:53)
+Stack trace:
+#0 D:\WWW\git\framework\web\CController.php(300): CInlineAction->runWithParams()
+#1 D:\WWW\git\framework\web\CController.php(278): DataServiceController->runAction()
+#2 D:\WWW\git\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#3 D:\WWW\git\framework\web\CWebApplication.php(328): DataServiceController->run()
+#4 D:\WWW\git\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#5 D:\WWW\git\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#6 D:\WWW\git\HiAD\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/git/HiAD/hiad-interface/DataService/Index
+2016/08/12 18:37:35 [error] [php] Undefined offset: 7 (D:\WWW\git\HiAD\hiad-interface\protected\controllers\PlayerAdController.php:53)
+Stack trace:
+#0 D:\WWW\git\framework\web\CController.php(300): CInlineAction->runWithParams()
+#1 D:\WWW\git\framework\web\CController.php(278): DataServiceController->runAction()
+#2 D:\WWW\git\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#3 D:\WWW\git\framework\web\CWebApplication.php(328): DataServiceController->run()
+#4 D:\WWW\git\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#5 D:\WWW\git\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#6 D:\WWW\git\HiAD\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/git/HiAD/hiad-interface/DataService/Index
+2016/08/12 18:37:36 [error] [php] Undefined offset: 7 (D:\WWW\git\HiAD\hiad-interface\protected\controllers\PlayerAdController.php:53)
+Stack trace:
+#0 D:\WWW\git\framework\web\CController.php(300): CInlineAction->runWithParams()
+#1 D:\WWW\git\framework\web\CController.php(278): DataServiceController->runAction()
+#2 D:\WWW\git\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#3 D:\WWW\git\framework\web\CWebApplication.php(328): DataServiceController->run()
+#4 D:\WWW\git\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#5 D:\WWW\git\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#6 D:\WWW\git\HiAD\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/git/HiAD/hiad-interface/DataService/Index
+2016/08/12 18:48:03 [error] [php] Undefined variable: MaterialVvideo (D:\WWW\git\HiAD\hiad-interface\protected\controllers\PlayerAdController.php:61)
+Stack trace:
+#0 D:\WWW\git\framework\web\CController.php(300): CInlineAction->runWithParams()
+#1 D:\WWW\git\framework\web\CController.php(278): DataServiceController->runAction()
+#2 D:\WWW\git\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#3 D:\WWW\git\framework\web\CWebApplication.php(328): DataServiceController->run()
+#4 D:\WWW\git\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#5 D:\WWW\git\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#6 D:\WWW\git\HiAD\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/git/HiAD/hiad-interface/DataService/Index
+2016/08/12 18:48:08 [error] [php] Undefined variable: MaterialVvideo (D:\WWW\git\HiAD\hiad-interface\protected\controllers\PlayerAdController.php:61)
+Stack trace:
+#0 D:\WWW\git\framework\web\CController.php(300): CInlineAction->runWithParams()
+#1 D:\WWW\git\framework\web\CController.php(278): DataServiceController->runAction()
+#2 D:\WWW\git\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#3 D:\WWW\git\framework\web\CWebApplication.php(328): DataServiceController->run()
+#4 D:\WWW\git\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#5 D:\WWW\git\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#6 D:\WWW\git\HiAD\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/git/HiAD/hiad-interface/DataService/Index
+2016/08/15 10:27:32 [error] [php] Undefined variable: MaterialVpic (D:\WWW\git\HiAD\hiad-interface\protected\controllers\PlayerAdController.php:66)
+Stack trace:
+#0 D:\WWW\git\framework\web\CController.php(300): CInlineAction->runWithParams()
+#1 D:\WWW\git\framework\web\CController.php(278): DataServiceController->runAction()
+#2 D:\WWW\git\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#3 D:\WWW\git\framework\web\CWebApplication.php(328): DataServiceController->run()
+#4 D:\WWW\git\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#5 D:\WWW\git\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#6 D:\WWW\git\HiAD\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/git/HiAD/hiad-interface/DataService/Index
+2016/08/15 10:47:54 [error] [php] Undefined variable: dataArr (D:\WWW\git\HiAD\hiad-interface\protected\controllers\PlayerAdController.php:77)
+Stack trace:
+#0 D:\WWW\git\framework\web\CController.php(300): CInlineAction->runWithParams()
+#1 D:\WWW\git\framework\web\CController.php(278): DataServiceController->runAction()
+#2 D:\WWW\git\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#3 D:\WWW\git\framework\web\CWebApplication.php(328): DataServiceController->run()
+#4 D:\WWW\git\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#5 D:\WWW\git\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#6 D:\WWW\git\HiAD\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/git/HiAD/hiad-interface/DataService/Index
+2016/08/15 10:48:04 [error] [php] Undefined variable: return (D:\WWW\git\HiAD\hiad-interface\protected\controllers\BaseController.php:64)
+Stack trace:
+#0 D:\WWW\git\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#1 D:\WWW\git\framework\web\CController.php(300): CInlineAction->runWithParams()
+#2 D:\WWW\git\framework\web\CController.php(278): DataServiceController->runAction()
+#3 D:\WWW\git\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#4 D:\WWW\git\framework\web\CWebApplication.php(328): DataServiceController->run()
+#5 D:\WWW\git\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#6 D:\WWW\git\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#7 D:\WWW\git\HiAD\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/git/HiAD/hiad-interface/DataService/Index
+2016/08/15 10:48:05 [error] [php] Undefined variable: return (D:\WWW\git\HiAD\hiad-interface\protected\controllers\BaseController.php:64)
+Stack trace:
+#0 D:\WWW\git\framework\web\actions\CInlineAction.php(50): DataServiceController->actionIndex()
+#1 D:\WWW\git\framework\web\CController.php(300): CInlineAction->runWithParams()
+#2 D:\WWW\git\framework\web\CController.php(278): DataServiceController->runAction()
+#3 D:\WWW\git\framework\web\CController.php(257): DataServiceController->runActionWithFilters()
+#4 D:\WWW\git\framework\web\CWebApplication.php(328): DataServiceController->run()
+#5 D:\WWW\git\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#6 D:\WWW\git\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#7 D:\WWW\git\HiAD\hiad-interface\index.php(10): CWebApplication->run()
+REQUEST_URI=/git/HiAD/hiad-interface/DataService/Index

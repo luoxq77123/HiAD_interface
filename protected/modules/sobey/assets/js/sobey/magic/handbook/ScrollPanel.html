@@ -1,0 +1,338 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns=http://www.w3.org/1999/xhtml>
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="tangram-fe" />
+		<meta name="viewport" content="width=device-width,height=device-height,user-scalable=no,initial-scale=1.0,maximum-scale=1.0;"/>
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<style>
+			body{font-size:14px;font-family:'微软雅黑'}
+		</style>
+		<title>Magic - 离线API</title>
+	</head>
+	<body>
+		<h1>Magic离线文档 -- 滚动面板</h1>
+		<h2>滚动面板</h2>
+		<p>
+			具备纵向滚动条的面板，多用于页面模块化中的一个特定大小的区域使用，滚动条可以根据需求自定义样式。
+		</p>
+
+		<h2>滚动面板插件</h2>
+
+				<h2>参考手册</h2>
+		
+		<dl>
+			<dt><h3>参数配置</h3></dt>
+			<dd>
+				<ul>
+										<li>
+						<dl>					
+							<dt><strong>options.autoUpdateDelay </strong>: Number</dt>
+							<dd>自动适应内容区域大小延时（ms）， 默认值 500。如果您的内容区域并非动态，设置为 false 可减少一个定时器开销</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>					
+							<dt><strong>options.arrowButtonStep </strong>: Number</dt>
+							<dd>点击箭头按钮滚动的距离（px）， 默认值 20</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>					
+							<dt><strong>options.mousewheelStep </strong>: Number</dt>
+							<dd>鼠标滚轮滚动的距离（px）， 默认值 50</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>					
+							<dt><strong>options.scrollbarStep </strong>: Number</dt>
+							<dd>点击滚动条空白区域滚动的距离（px）， 默认值 80</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>					
+							<dt><strong>options.intervalScrollDelay </strong>: Number</dt>
+							<dd>（点击到箭头或滚动条空白区域时）持续滚动延时（ms），默认 300</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>					
+							<dt><strong>options.intervalScrollFreq </strong>: Number</dt>
+							<dd>（点击到箭头或滚动条空白区域时）持续滚动频率（ms），默认 100</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>					
+							<dt><strong>options.scrollbarMinHeight </strong>: Number</dt>
+							<dd>滚动条控制手柄最小高度（px），默认 10</dd>
+						</dl>
+					</li>
+									</ul>
+			</dd>
+		</dl>
+				<dl>
+			<dt><h3>组件属性</h3></dt>
+			<dd>
+				<ul>
+									</ul>
+			</dd>
+		</dl>
+				<dl>
+			<dt><h3>组件方法</h3></dt>
+			<dd>
+				<ul>
+										<li>
+						<dl>
+							<dt>update</dt>
+							<dd>
+								<p>根据变化了的内容区域，重新计算滚动条(是否出现、位置、高度等)</p>
+																							</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>
+							<dt>clearAutoUpdate</dt>
+							<dd>
+								<p>停止自动更新</p>
+																							</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>
+							<dt>scrollTo</dt>
+							<dd>
+								<p>滚动到某个位置</p>
+																<ul>
+																		<li>
+										<dl>
+											<dt>参数</dt>							
+											<dd>
+												<ul>
+																										<li>
+														<p><strong>pos</strong>: {Number}</p>
+														<p style="text-indent: 24px;">要滚动到的位置</p>
+													</li>
+																									</ul>
+												
+											</dd>
+										</dl>
+									</li>
+																		
+																											
+									
+								</ul>
+															</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>
+							<dt>scrollToTop</dt>
+							<dd>
+								<p>滚动到顶部</p>
+																							</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>
+							<dt>scrollToBottom</dt>
+							<dd>
+								<p>滚动到底部</p>
+																							</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>
+							<dt>scrollToElement</dt>
+							<dd>
+								<p>滚动到某个元素的位置</p>
+																<ul>
+																		<li>
+										<dl>
+											<dt>参数</dt>							
+											<dd>
+												<ul>
+																										<li>
+														<p><strong>ele</strong>: {Element}</p>
+														<p style="text-indent: 24px;">要滚动到的元素</p>
+													</li>
+																									</ul>
+												
+											</dd>
+										</dl>
+									</li>
+																		
+																											
+									
+								</ul>
+															</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>
+							<dt>scrollBy</dt>
+							<dd>
+								<p>以当前位置为基准滚动</p>
+																<ul>
+																		<li>
+										<dl>
+											<dt>参数</dt>							
+											<dd>
+												<ul>
+																										<li>
+														<p><strong>num</strong>: {Number}</p>
+														<p style="text-indent: 24px;">要滚动的距离</p>
+													</li>
+																									</ul>
+												
+											</dd>
+										</dl>
+									</li>
+																		
+																											
+									
+								</ul>
+															</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>
+							<dt>getScroll</dt>
+							<dd>
+								<p>获取当前滚动的位置</p>
+																							</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>
+							<dt>getScrollPct</dt>
+							<dd>
+								<p>获取当前滚动的百分比位置</p>
+																							</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>
+							<dt>getElement</dt>
+							<dd>
+								<p>取得 ui 模块对应的 dom element 对象</p>
+																<ul>
+																		<li>
+										<dl>
+											<dt>参数</dt>							
+											<dd>
+												<ul>
+																										<li>
+														<p><strong>key</strong>: {String}</p>
+														<p style="text-indent: 24px;">该ID对应的关键字(可选参数)</p>
+													</li>
+																									</ul>
+												
+											</dd>
+										</dl>
+									</li>
+																		
+																		<li>
+										<dl>
+											<dt>返回值:&nbsp;{Object}</dt>									
+											<dd>
+												<p>ui模块对应的dom element</p>
+											</dd>
+										</dl>
+									</li>
+																		
+									
+								</ul>
+															</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>
+							<dt>getElements</dt>
+							<dd>
+								<p>取得所有 ui 模块对应的 dom element 对象</p>
+																<ul>
+																											
+																		<li>
+										<dl>
+											<dt>返回值:&nbsp;{Object}</dt>									
+											<dd>
+												<p>取得对象的集合</p>
+											</dd>
+										</dl>
+									</li>
+																		
+									
+								</ul>
+															</dd>
+						</dl>
+					</li>
+									</ul>
+			</dd>
+		</dl>
+
+		<dl>
+			<dt><h3>组件事件</h3></dt>
+			<dd>
+				<ul>
+										<li>
+						<dl>
+							<dt>beforescroll</dt>
+							<dd>
+								<p>滚动前触发</p>
+																<ul>
+																		<li>
+										<dl>
+											<dt>参数</dt>							
+											<dd>
+												<ul>
+																										<li>
+														<p><strong>e</strong>: {event}</p>
+														<p style="text-indent: 24px;"></p>
+													</li>
+																										<li>
+														<p><strong>e.pos</strong>: {Number}</p>
+														<p style="text-indent: 24px;">要滚动到的位置</p>
+													</li>
+																									</ul>
+												
+											</dd>
+										</dl>
+									</li>
+																																			</ul>
+															</dd>
+						</dl>
+					</li>
+										<li>
+						<dl>
+							<dt>afterscroll</dt>
+							<dd>
+								<p>滚动后触发</p>
+																<ul>
+																		<li>
+										<dl>
+											<dt>参数</dt>							
+											<dd>
+												<ul>
+																										<li>
+														<p><strong>e</strong>: {event}</p>
+														<p style="text-indent: 24px;"></p>
+													</li>
+																										<li>
+														<p><strong>e.pos</strong>: {Number}</p>
+														<p style="text-indent: 24px;">滚动后的位置</p>
+													</li>
+																									</ul>
+												
+											</dd>
+										</dl>
+									</li>
+																																			</ul>
+															</dd>
+						</dl>
+					</li>
+									</ul>
+			</dd>
+		</dl>
+	</body>
+</html>
